@@ -6,9 +6,8 @@ import { format, parse, startOfWeek, getDay } from 'date-fns'
 import { fr } from 'date-fns/locale'
 import * as Select from '@radix-ui/react-select'
 import { Check, ChevronDown } from 'lucide-react'
-import { cn } from '@/lib/utils'
 import { useSchedule } from '@/lib/context/ScheduleContext'
-import type { Department, School, Class, Subclass, Semester, ScheduleEvent } from '@/lib/types/schedule'
+import type { School, Class, Subclass, Semester, ScheduleEvent } from '@/lib/types/schedule'
 import {
   Dialog,
   DialogContent,
@@ -90,14 +89,12 @@ const messages = {
 export default function SchedulePage() {
   const {
     state,
-    setDepartment,
     setSchool,
     setClass,
     setSubclass,
     setSemester,
   } = useSchedule()
 
-  const [departments, setDepartments] = useState<Department[]>([])
   const [schools, setSchools] = useState<School[]>([])
   const [classes, setClasses] = useState<Class[]>([])
   const [subclasses, setSubclasses] = useState<Subclass[]>([])
@@ -114,26 +111,55 @@ export default function SchedulePage() {
   useEffect(() => {
     const savedState = localStorage.getItem('scheduleSelections')
     if (savedState) {
-      const { department, school, semester, class: classId, subclass } = JSON.parse(savedState)
-      if (department) setDepartment(department)
+      const { school, semester, class: classId, subclass } = JSON.parse(savedState)
       if (school) setSchool(school)
       if (semester) setSemester(semester)
       if (classId) setClass(classId)
       if (subclass) setSubclass(subclass)
     }
+
+    // Fetch initial schools list
+    fetchSchools()
   }, [])
 
   // Save state changes to localStorage
   useEffect(() => {
     const stateToSave = {
-      department: state.department,
       school: state.school,
       semester: state.semester,
       class: state.class,
       subclass: state.subclass
     }
     localStorage.setItem('scheduleSelections', JSON.stringify(stateToSave))
-  }, [state.department, state.school, state.semester, state.class, state.subclass])
+  }, [state.school, state.semester, state.class, state.subclass])
+
+  // Fetch schools on mount
+  const fetchSchools = async () => {
+    try {
+      const response = await fetch(`/api/schools?departmentId=6976`)
+      
+      if (!response.ok) {
+        const errorData = await response.json().catch(() => ({ message: 'Failed to fetch schools' }))
+        console.error('Schools fetch error:', errorData)
+        throw new Error(errorData.message || 'Failed to fetch schools')
+      }
+      
+      const data = await response.json()
+      console.log('Schools data received:', data)
+      
+      // Transform the data to match the School interface
+      const schools: School[] = data.map((school: { id: string, name: string }) => ({
+        id: school.id,
+        name: school.name,
+        departmentId: '6976'
+      }))
+      
+      setSchools(schools)
+    } catch (err) {
+      console.error('Error in fetchSchools:', err)
+      setError(err instanceof Error ? err.message : 'Failed to load schools')
+    }
+  }
 
   // Color mapping for events
   const getEventColor = (eventTitle: string) => {
@@ -262,45 +288,6 @@ export default function SchedulePage() {
     fetchSchedule(currentWeek)
   }, [state.subclass, currentWeek])
 
-  // Fetch departments on mount
-  useEffect(() => {
-    const fetchDepartments = async () => {
-      try {
-        const response = await fetch('/api/departments')
-        if (!response.ok) throw new Error('Failed to fetch departments')
-        const data = await response.json()
-        setDepartments(data)
-      } catch (err) {
-        setError('Failed to load departments')
-        console.error(err)
-      }
-    }
-
-    fetchDepartments()
-  }, [])
-
-  // Fetch schools when department changes
-  useEffect(() => {
-    if (!state.department) {
-      setSchools([])
-      return
-    }
-    
-    const fetchSchools = async () => {
-      try {
-        const response = await fetch(`/api/schools?departmentId=${state.department}`)
-        if (!response.ok) throw new Error('Failed to fetch schools')
-        const data = await response.json()
-        setSchools(data)
-      } catch (err) {
-        setError('Failed to load schools')
-        console.error(err)
-      }
-    }
-
-    fetchSchools()
-  }, [state.department])
-
   // Fetch semesters when school changes
   useEffect(() => {
     if (!state.school) {
@@ -373,46 +360,14 @@ export default function SchedulePage() {
         <CardHeader>
           <CardTitle>Emploi du temps</CardTitle>
           <CardDescription>
-            Sélectionnez votre département, école, classe et semestre pour voir votre emploi du temps
+            Sélectionnez votre école, classe et semestre pour voir votre emploi du temps
           </CardDescription>
         </CardHeader>
         <CardContent>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-4">
-            <div className="flex flex-col gap-2">
-              <label className="text-sm font-medium">Département</label>
-              <Select.Root value={state.department || ""} onValueChange={setDepartment}>
-                <Select.Trigger className="flex h-10 w-full items-center justify-between rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50">
-                  <Select.Value placeholder="Sélectionner un département" />
-                  <Select.Icon>
-                    <ChevronDown className="h-4 w-4 opacity-50" />
-                  </Select.Icon>
-                </Select.Trigger>
-                <Select.Portal>
-                  <Select.Content className="relative z-50 min-w-[8rem] overflow-hidden rounded-md border bg-popover text-popover-foreground shadow-md data-[state=open]:animate-in data-[state=closed]:animate-out data-[state=closed]:fade-out-0 data-[state=open]:fade-in-0 data-[state=closed]:zoom-out-95 data-[state=open]:zoom-in-95 data-[side=bottom]:slide-in-from-top-2 data-[side=left]:slide-in-from-right-2 data-[side=right]:slide-in-from-left-2 data-[side=top]:slide-in-from-bottom-2">
-                    <Select.Viewport className="p-1">
-                      {departments.map((dept) => (
-                        <Select.Item
-                          key={dept.id}
-                          value={dept.id}
-                          className="relative flex w-full cursor-default select-none items-center rounded-sm py-1.5 pl-8 pr-2 text-sm outline-none focus:bg-accent focus:text-accent-foreground data-[disabled]:pointer-events-none data-[disabled]:opacity-50"
-                        >
-                          <span className="absolute left-2 flex h-3.5 w-3.5 items-center justify-center">
-                            <Select.ItemIndicator>
-                              <Check className="h-4 w-4" />
-                            </Select.ItemIndicator>
-                          </span>
-                          <Select.ItemText>{dept.name}</Select.ItemText>
-                        </Select.Item>
-                      ))}
-                    </Select.Viewport>
-                  </Select.Content>
-                </Select.Portal>
-              </Select.Root>
-            </div>
-
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
             <div className="flex flex-col gap-2">
               <label className="text-sm font-medium">École</label>
-              <Select.Root value={state.school || ""} onValueChange={setSchool} disabled={!state.department || schools.length === 0}>
+              <Select.Root value={state.school || ""} onValueChange={setSchool}>
                 <Select.Trigger className="flex h-10 w-full items-center justify-between rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50">
                   <Select.Value placeholder="Sélectionner une école" />
                   <Select.Icon>
