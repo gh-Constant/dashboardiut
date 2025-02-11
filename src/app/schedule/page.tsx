@@ -4,7 +4,9 @@ import { useEffect, useState } from 'react'
 import { Calendar, dateFnsLocalizer, View } from 'react-big-calendar'
 import { format, parse, startOfWeek, getDay } from 'date-fns'
 import { fr } from 'date-fns/locale'
-import { Select } from '@/components/ui/select'
+import * as Select from '@radix-ui/react-select'
+import { Check, ChevronDown } from 'lucide-react'
+import { cn } from '@/lib/utils'
 import { useSchedule } from '@/lib/context/ScheduleContext'
 import type { Department, School, Class, Subclass, Semester, ScheduleEvent } from '@/lib/types/schedule'
 import {
@@ -107,6 +109,31 @@ export default function SchedulePage() {
   const [currentWeek, setCurrentWeek] = useState(7)
   const [selectedEvent, setSelectedEvent] = useState<ScheduleEvent | null>(null)
   const [isEventDialogOpen, setIsEventDialogOpen] = useState(false)
+
+  // Load saved state on mount
+  useEffect(() => {
+    const savedState = localStorage.getItem('scheduleSelections')
+    if (savedState) {
+      const { department, school, semester, class: classId, subclass } = JSON.parse(savedState)
+      if (department) setDepartment(department)
+      if (school) setSchool(school)
+      if (semester) setSemester(semester)
+      if (classId) setClass(classId)
+      if (subclass) setSubclass(subclass)
+    }
+  }, [])
+
+  // Save state changes to localStorage
+  useEffect(() => {
+    const stateToSave = {
+      department: state.department,
+      school: state.school,
+      semester: state.semester,
+      class: state.class,
+      subclass: state.subclass
+    }
+    localStorage.setItem('scheduleSelections', JSON.stringify(stateToSave))
+  }, [state.department, state.school, state.semester, state.class, state.subclass])
 
   // Color mapping for events
   const getEventColor = (eventTitle: string) => {
@@ -351,44 +378,165 @@ export default function SchedulePage() {
         </CardHeader>
         <CardContent>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-4">
-            <Select
-              label="Département"
-              options={departments}
-              value={state.department}
-              onChange={setDepartment}
-            />
-            
-            <Select
-              label="École"
-              options={schools}
-              value={state.school}
-              onChange={setSchool}
-              disabled={!state.department}
-            />
-            
-            <Select
-              label="Semestre"
-              options={semesters}
-              value={state.semester}
-              onChange={setSemester}
-              disabled={!state.school}
-            />
-            
-            <Select
-              label="Classe"
-              options={classes}
-              value={state.class}
-              onChange={setClass}
-              disabled={!state.semester}
-            />
-            
-            <Select
-              label="Sous-classe"
-              options={subclasses}
-              value={state.subclass}
-              onChange={setSubclass}
-              disabled={!state.class}
-            />
+            <div className="flex flex-col gap-2">
+              <label className="text-sm font-medium">Département</label>
+              <Select.Root value={state.department || ""} onValueChange={setDepartment}>
+                <Select.Trigger className="flex h-10 w-full items-center justify-between rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50">
+                  <Select.Value placeholder="Sélectionner un département" />
+                  <Select.Icon>
+                    <ChevronDown className="h-4 w-4 opacity-50" />
+                  </Select.Icon>
+                </Select.Trigger>
+                <Select.Portal>
+                  <Select.Content className="relative z-50 min-w-[8rem] overflow-hidden rounded-md border bg-popover text-popover-foreground shadow-md data-[state=open]:animate-in data-[state=closed]:animate-out data-[state=closed]:fade-out-0 data-[state=open]:fade-in-0 data-[state=closed]:zoom-out-95 data-[state=open]:zoom-in-95 data-[side=bottom]:slide-in-from-top-2 data-[side=left]:slide-in-from-right-2 data-[side=right]:slide-in-from-left-2 data-[side=top]:slide-in-from-bottom-2">
+                    <Select.Viewport className="p-1">
+                      {departments.map((dept) => (
+                        <Select.Item
+                          key={dept.id}
+                          value={dept.id}
+                          className="relative flex w-full cursor-default select-none items-center rounded-sm py-1.5 pl-8 pr-2 text-sm outline-none focus:bg-accent focus:text-accent-foreground data-[disabled]:pointer-events-none data-[disabled]:opacity-50"
+                        >
+                          <span className="absolute left-2 flex h-3.5 w-3.5 items-center justify-center">
+                            <Select.ItemIndicator>
+                              <Check className="h-4 w-4" />
+                            </Select.ItemIndicator>
+                          </span>
+                          <Select.ItemText>{dept.name}</Select.ItemText>
+                        </Select.Item>
+                      ))}
+                    </Select.Viewport>
+                  </Select.Content>
+                </Select.Portal>
+              </Select.Root>
+            </div>
+
+            <div className="flex flex-col gap-2">
+              <label className="text-sm font-medium">École</label>
+              <Select.Root value={state.school || ""} onValueChange={setSchool} disabled={!state.department || schools.length === 0}>
+                <Select.Trigger className="flex h-10 w-full items-center justify-between rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50">
+                  <Select.Value placeholder="Sélectionner une école" />
+                  <Select.Icon>
+                    <ChevronDown className="h-4 w-4 opacity-50" />
+                  </Select.Icon>
+                </Select.Trigger>
+                <Select.Portal>
+                  <Select.Content className="relative z-50 min-w-[8rem] overflow-hidden rounded-md border bg-popover text-popover-foreground shadow-md">
+                    <Select.Viewport className="p-1">
+                      {schools.map((school) => (
+                        <Select.Item
+                          key={school.id}
+                          value={school.id}
+                          className="relative flex w-full cursor-default select-none items-center rounded-sm py-1.5 pl-8 pr-2 text-sm outline-none focus:bg-accent focus:text-accent-foreground data-[disabled]:pointer-events-none data-[disabled]:opacity-50"
+                        >
+                          <span className="absolute left-2 flex h-3.5 w-3.5 items-center justify-center">
+                            <Select.ItemIndicator>
+                              <Check className="h-4 w-4" />
+                            </Select.ItemIndicator>
+                          </span>
+                          <Select.ItemText>{school.name}</Select.ItemText>
+                        </Select.Item>
+                      ))}
+                    </Select.Viewport>
+                  </Select.Content>
+                </Select.Portal>
+              </Select.Root>
+            </div>
+
+            <div className="flex flex-col gap-2">
+              <label className="text-sm font-medium">Semestre</label>
+              <Select.Root value={state.semester || ""} onValueChange={setSemester} disabled={!state.school || semesters.length === 0}>
+                <Select.Trigger className="flex h-10 w-full items-center justify-between rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50">
+                  <Select.Value placeholder="Sélectionner un semestre" />
+                  <Select.Icon>
+                    <ChevronDown className="h-4 w-4 opacity-50" />
+                  </Select.Icon>
+                </Select.Trigger>
+                <Select.Portal>
+                  <Select.Content className="relative z-50 min-w-[8rem] overflow-hidden rounded-md border bg-popover text-popover-foreground shadow-md">
+                    <Select.Viewport className="p-1">
+                      {semesters.map((semester) => (
+                        <Select.Item
+                          key={semester.id}
+                          value={semester.id}
+                          className="relative flex w-full cursor-default select-none items-center rounded-sm py-1.5 pl-8 pr-2 text-sm outline-none focus:bg-accent focus:text-accent-foreground data-[disabled]:pointer-events-none data-[disabled]:opacity-50"
+                        >
+                          <span className="absolute left-2 flex h-3.5 w-3.5 items-center justify-center">
+                            <Select.ItemIndicator>
+                              <Check className="h-4 w-4" />
+                            </Select.ItemIndicator>
+                          </span>
+                          <Select.ItemText>{semester.name}</Select.ItemText>
+                        </Select.Item>
+                      ))}
+                    </Select.Viewport>
+                  </Select.Content>
+                </Select.Portal>
+              </Select.Root>
+            </div>
+
+            <div className="flex flex-col gap-2">
+              <label className="text-sm font-medium">Classe</label>
+              <Select.Root value={state.class || ""} onValueChange={setClass} disabled={!state.semester || classes.length === 0}>
+                <Select.Trigger className="flex h-10 w-full items-center justify-between rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50">
+                  <Select.Value placeholder="Sélectionner une classe" />
+                  <Select.Icon>
+                    <ChevronDown className="h-4 w-4 opacity-50" />
+                  </Select.Icon>
+                </Select.Trigger>
+                <Select.Portal>
+                  <Select.Content className="relative z-50 min-w-[8rem] overflow-hidden rounded-md border bg-popover text-popover-foreground shadow-md">
+                    <Select.Viewport className="p-1">
+                      {classes.map((cls) => (
+                        <Select.Item
+                          key={cls.id}
+                          value={cls.id}
+                          className="relative flex w-full cursor-default select-none items-center rounded-sm py-1.5 pl-8 pr-2 text-sm outline-none focus:bg-accent focus:text-accent-foreground data-[disabled]:pointer-events-none data-[disabled]:opacity-50"
+                        >
+                          <span className="absolute left-2 flex h-3.5 w-3.5 items-center justify-center">
+                            <Select.ItemIndicator>
+                              <Check className="h-4 w-4" />
+                            </Select.ItemIndicator>
+                          </span>
+                          <Select.ItemText>{cls.name}</Select.ItemText>
+                        </Select.Item>
+                      ))}
+                    </Select.Viewport>
+                  </Select.Content>
+                </Select.Portal>
+              </Select.Root>
+            </div>
+
+            <div className="flex flex-col gap-2">
+              <label className="text-sm font-medium">Sous-classe</label>
+              <Select.Root value={state.subclass || ""} onValueChange={setSubclass} disabled={!state.class || subclasses.length === 0}>
+                <Select.Trigger className="flex h-10 w-full items-center justify-between rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50">
+                  <Select.Value placeholder="Sélectionner une sous-classe" />
+                  <Select.Icon>
+                    <ChevronDown className="h-4 w-4 opacity-50" />
+                  </Select.Icon>
+                </Select.Trigger>
+                <Select.Portal>
+                  <Select.Content className="relative z-50 min-w-[8rem] overflow-hidden rounded-md border bg-popover text-popover-foreground shadow-md">
+                    <Select.Viewport className="p-1">
+                      {subclasses.map((subcls) => (
+                        <Select.Item
+                          key={subcls.id}
+                          value={subcls.id}
+                          className="relative flex w-full cursor-default select-none items-center rounded-sm py-1.5 pl-8 pr-2 text-sm outline-none focus:bg-accent focus:text-accent-foreground data-[disabled]:pointer-events-none data-[disabled]:opacity-50"
+                        >
+                          <span className="absolute left-2 flex h-3.5 w-3.5 items-center justify-center">
+                            <Select.ItemIndicator>
+                              <Check className="h-4 w-4" />
+                            </Select.ItemIndicator>
+                          </span>
+                          <Select.ItemText>{subcls.name}</Select.ItemText>
+                        </Select.Item>
+                      ))}
+                    </Select.Viewport>
+                  </Select.Content>
+                </Select.Portal>
+              </Select.Root>
+            </div>
           </div>
         </CardContent>
       </Card>
