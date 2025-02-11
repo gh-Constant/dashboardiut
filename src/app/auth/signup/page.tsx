@@ -5,7 +5,7 @@ import { createClient } from '@/lib/supabase/client'
 import { useRouter } from 'next/navigation'
 import { Button } from '@/components/ui/button'
 import Link from 'next/link'
-import { FaGithub, FaCheck, FaTimes } from 'react-icons/fa'
+import { FaGithub, FaCheck, FaTimes, FaDiscord } from 'react-icons/fa'
 import { FcGoogle } from 'react-icons/fc'
 
 export default function SignUpPage() {
@@ -58,7 +58,7 @@ export default function SignUpPage() {
     }
   }
 
-  const handleSocialSignUp = async (provider: 'github' | 'google') => {
+  const handleSocialSignUp = async (provider: 'github' | 'google' | 'discord') => {
     try {
       const { error } = await supabase.auth.signInWithOAuth({
         provider,
@@ -100,14 +100,14 @@ export default function SignUpPage() {
 
       <div className="mt-8 sm:mx-auto sm:w-full sm:max-w-md">
         <div className="bg-white px-4 py-8 shadow sm:rounded-lg sm:px-10">
-          <div className="grid grid-cols-2 gap-3">
+          <div className="grid grid-cols-3 gap-3">
             <button
               type="button"
               onClick={() => handleSocialSignUp('google')}
               className="flex w-full items-center justify-center gap-2 rounded-md bg-white px-3 py-2 text-sm font-semibold text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 hover:bg-gray-50 focus:outline-offset-0"
             >
               <FcGoogle className="h-5 w-5" />
-              <span>Google</span>
+              <span className="sr-only sm:not-sr-only">Google</span>
             </button>
 
             <button
@@ -116,7 +116,16 @@ export default function SignUpPage() {
               className="flex w-full items-center justify-center gap-2 rounded-md bg-[#24292F] px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-[#24292F]/90 focus:outline-offset-0"
             >
               <FaGithub className="h-5 w-5" />
-              <span>GitHub</span>
+              <span className="sr-only sm:not-sr-only">GitHub</span>
+            </button>
+
+            <button
+              type="button"
+              onClick={() => handleSocialSignUp('discord')}
+              className="flex w-full items-center justify-center gap-2 rounded-md bg-[#5865F2] px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-[#5865F2]/90 focus:outline-offset-0"
+            >
+              <FaDiscord className="h-5 w-5" />
+              <span className="sr-only sm:not-sr-only">Discord</span>
             </button>
           </div>
 
