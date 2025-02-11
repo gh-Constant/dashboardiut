@@ -38,7 +38,7 @@ export function parseSchools(html: string, departmentId: string): School[] {
   return schools
 }
 
-export function parseClasses(html: string, schoolId: string): Class[] {
+export function parseClasses(html: string, semesterId: string): Class[] {
   const $ = cheerio.load(html)
   const classes: Class[] = []
 
@@ -49,7 +49,7 @@ export function parseClasses(html: string, schoolId: string): Class[] {
     const name = $el.text().trim()
 
     if (id && name) {
-      classes.push({ id, name, schoolId })
+      classes.push({ id, name, semesterId })
     }
   })
 
@@ -74,7 +74,7 @@ export function parseSubclasses(html: string, classId: string): Subclass[] {
   return subclasses
 }
 
-export function parseSemesters(html: string, subclassId: string): Semester[] {
+export function parseSemesters(html: string, schoolId: string): Semester[] {
   const $ = cheerio.load(html)
   const semesters: Semester[] = []
 
@@ -85,7 +85,7 @@ export function parseSemesters(html: string, subclassId: string): Semester[] {
     const name = $el.text().trim()
 
     if (id && name) {
-      semesters.push({ id, name, subclassId })
+      semesters.push({ id, name, schoolId })
     }
   })
 

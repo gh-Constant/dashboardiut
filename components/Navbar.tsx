@@ -41,7 +41,7 @@ export function Navbar() {
       setUser(user)
     }
     getUser()
-  }, [])
+  }, [supabase.auth])
 
   const handleSignOut = async () => {
     await supabase.auth.signOut()

@@ -38,7 +38,7 @@ export default async function HomePage() {
     <div className="container mx-auto py-8">
       <div className="mb-8">
         <h1 className="text-3xl font-bold">Welcome back, {user.email}</h1>
-        <p className="mt-2 text-gray-600">Here's your schedule overview</p>
+        <p className="mt-2 text-gray-600">Here&apos;s your schedule overview</p>
       </div>
 
       <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">

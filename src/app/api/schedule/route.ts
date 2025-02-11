@@ -134,8 +134,8 @@ export async function GET(request: NextRequest) {
           const event = {
             id: `${subclassId}-${date}-${startHour}${startMin || '00'}-${endHour}${endMin || '00'}`,
             title,
-            start: start.toISOString(),
-            end: end.toISOString(),
+            start,
+            end,
             location,
             allDay: false
           }

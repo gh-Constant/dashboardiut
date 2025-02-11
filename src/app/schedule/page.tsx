@@ -1,6 +1,6 @@
 'use client'
 
-import { useEffect, useState } from 'react'
+import { useEffect, useState, useCallback } from 'react'
 import { Calendar, dateFnsLocalizer, View } from 'react-big-calendar'
 import { format, parse, startOfWeek, getDay } from 'date-fns'
 import { fr } from 'date-fns/locale'
@@ -82,7 +82,7 @@ const messages = {
   next: 'Suivant',
   today: "Aujourd'hui",
   agenda: 'Agenda',
-  showMore: total => `+${total} plus`,
+  showMore: (total: number) => `+${total} plus`,
   noEventsInRange: '',
 }
 
@@ -120,7 +120,7 @@ export default function SchedulePage() {
 
     // Fetch initial schools list
     fetchSchools()
-  }, [])
+  }, [setSchool, setSemester, setClass, setSubclass])
 
   // Save state changes to localStorage
   useEffect(() => {
@@ -244,7 +244,7 @@ export default function SchedulePage() {
     await fetchSchedule(1);
   };
 
-  const fetchSchedule = async (days: number) => {
+  const fetchSchedule = useCallback(async (days: number) => {
     if (!state.subclass) {
       setEvents([])
       return
@@ -281,12 +281,14 @@ export default function SchedulePage() {
     } finally {
       setIsLoading(false)
     }
-  }
+  }, [state.subclass, setEvents, setIsLoading, setError])
 
-  // Fetch schedule when subclass or currentWeek changes
+  // Update schedule when dependencies change
   useEffect(() => {
-    fetchSchedule(currentWeek)
-  }, [state.subclass, currentWeek])
+    if (state.subclass) {
+      fetchSchedule(currentWeek)
+    }
+  }, [state.subclass, currentWeek, fetchSchedule])
 
   // Fetch semesters when school changes
   useEffect(() => {
@@ -509,7 +511,7 @@ export default function SchedulePage() {
               variant="outline" 
               onClick={handleTodayClick}
             >
-              Aujourd'hui
+              Aujourd&apos;hui
             </Button>
             <Button 
               variant={currentWeek === 7 ? "default" : "outline"}
