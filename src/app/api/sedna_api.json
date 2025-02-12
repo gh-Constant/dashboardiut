@@ -1,0 +1,2988 @@
+[
+    {
+      "name": "BUT Carrières sociales 1e année",
+      "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mselect.jsp?id=6992",
+      "subpages": [
+        {
+          "name": "CS1 ASSC GR1",
+          "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mselect.jsp?id=4631",
+          "subpages": [
+            {
+              "name": "CS1 ASSC GR1.1",
+              "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=4637",
+              "subpages": []
+            },
+            {
+              "name": "CS1 ASSC GR1.2",
+              "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=4642",
+              "subpages": []
+            }
+          ]
+        },
+        {
+          "name": "Etape",
+          "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=4631",
+          "subpages": []
+        },
+        {
+          "name": "CS1 ASSC GR2",
+          "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mselect.jsp?id=4632",
+          "subpages": [
+            {
+              "name": "CS1 ASSC GR2.1",
+              "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=4644",
+              "subpages": []
+            },
+            {
+              "name": "CS1 ASSC GR2.2",
+              "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=4645",
+              "subpages": []
+            }
+          ]
+        },
+        {
+          "name": "Etape",
+          "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=4632",
+          "subpages": []
+        },
+        {
+          "name": "CS1 CGE3S GR3",
+          "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mselect.jsp?id=335",
+          "subpages": [
+            {
+              "name": "CS1 CGE3S GR3.1",
+              "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=338",
+              "subpages": []
+            },
+            {
+              "name": "CS1 CGE3S GR3.2",
+              "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=336",
+              "subpages": []
+            }
+          ]
+        },
+        {
+          "name": "Etape",
+          "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=335",
+          "subpages": []
+        },
+        {
+          "name": "CS1 VTD GR4",
+          "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mselect.jsp?id=19826",
+          "subpages": [
+            {
+              "name": "CS1 VTD GR4.1",
+              "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=19827",
+              "subpages": []
+            },
+            {
+              "name": "CS1 VTD GR4.2",
+              "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=19828",
+              "subpages": []
+            }
+          ]
+        },
+        {
+          "name": "Etape",
+          "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=19826",
+          "subpages": []
+        }
+      ]
+    },
+    {
+      "name": "BUT Carrières sociales 2e année",
+      "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mselect.jsp?id=6993",
+      "subpages": [
+        {
+          "name": "CS2 ASSC GR1",
+          "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mselect.jsp?id=7494",
+          "subpages": [
+            {
+              "name": "CS2 ASSC GR1.1 FISE",
+              "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=7634",
+              "subpages": []
+            },
+            {
+              "name": "CS2 ASSC GR1.2 FISE",
+              "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=10263",
+              "subpages": []
+            }
+          ]
+        },
+        {
+          "name": "Etape",
+          "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=7494",
+          "subpages": []
+        },
+        {
+          "name": "CS2 ASSC GR2",
+          "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mselect.jsp?id=11715",
+          "subpages": [
+            {
+              "name": "CS2 ASSC GR2.1 FISE",
+              "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=11789",
+              "subpages": []
+            },
+            {
+              "name": "CS2 ASSC GR2.2 FISA",
+              "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=11744",
+              "subpages": []
+            }
+          ]
+        },
+        {
+          "name": "Etape",
+          "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=11715",
+          "subpages": []
+        },
+        {
+          "name": "CS2 CGE3S GR3",
+          "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mselect.jsp?id=7288",
+          "subpages": [
+            {
+              "name": "CS2 CGE3S GR3.1 FISE",
+              "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=13956",
+              "subpages": []
+            },
+            {
+              "name": "CS2 CGE3S GR3.2 FISA",
+              "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=7297",
+              "subpages": []
+            }
+          ]
+        },
+        {
+          "name": "Etape",
+          "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=7288",
+          "subpages": []
+        },
+        {
+          "name": "CS2 VTD GR4",
+          "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mselect.jsp?id=5764",
+          "subpages": [
+            {
+              "name": "CS2 VTD GR4.1 FISE",
+              "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=11792",
+              "subpages": []
+            },
+            {
+              "name": "CS2 VTD GR4.2 FISA",
+              "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=5790",
+              "subpages": []
+            }
+          ]
+        },
+        {
+          "name": "Etape",
+          "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=5764",
+          "subpages": []
+        }
+      ]
+    },
+    {
+      "name": "BUT Carrières sociales 3e année",
+      "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mselect.jsp?id=9402",
+      "subpages": [
+        {
+          "name": "CS3 ASSC  GR1",
+          "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mselect.jsp?id=21734",
+          "subpages": [
+            {
+              "name": "CS3 ASSC GR1 FISE",
+              "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=21744",
+              "subpages": []
+            },
+            {
+              "name": "CS3 ASSC GR2  FISA",
+              "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=9926",
+              "subpages": []
+            }
+          ]
+        },
+        {
+          "name": "Etape",
+          "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=21734",
+          "subpages": []
+        },
+        {
+          "name": "CS3 ASSC GR2",
+          "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mselect.jsp?id=21746",
+          "subpages": [
+            {
+              "name": "CS3 ASSC GR2 FISE",
+              "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=4623",
+              "subpages": []
+            }
+          ]
+        },
+        {
+          "name": "Etape",
+          "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=21746",
+          "subpages": []
+        },
+        {
+          "name": "CS3 CGE3S GR3",
+          "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mselect.jsp?id=21747",
+          "subpages": [
+            {
+              "name": "CS3 CGE3S GR3 FISA",
+              "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=9780",
+              "subpages": []
+            },
+            {
+              "name": "CS3 CGE3S GR3 FISE",
+              "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=1398",
+              "subpages": []
+            }
+          ]
+        },
+        {
+          "name": "Etape",
+          "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=21747",
+          "subpages": []
+        },
+        {
+          "name": "CS3 VTD GR4",
+          "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mselect.jsp?id=21748",
+          "subpages": [
+            {
+              "name": "CS3 VTD GR4 FISA",
+              "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=3027",
+              "subpages": []
+            },
+            {
+              "name": "CS3 VTD GR4 FISE",
+              "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=10030",
+              "subpages": []
+            }
+          ]
+        },
+        {
+          "name": "Etape",
+          "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=21748",
+          "subpages": []
+        }
+      ]
+    },
+    {
+      "name": "BUT GACO - MFS 2e année à distance",
+      "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mselect.jsp?id=3581",
+      "subpages": [
+        {
+          "name": "Groupe Allemand",
+          "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=8329",
+          "subpages": []
+        },
+        {
+          "name": "Groupe Espagnol",
+          "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=11405",
+          "subpages": []
+        }
+      ]
+    },
+    {
+      "name": "Etape",
+      "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=3581",
+      "subpages": []
+    },
+    {
+      "name": "BUT GACO - MFS 3e année à distance",
+      "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mselect.jsp?id=394",
+      "subpages": [
+        {
+          "name": "Groupe Allemand",
+          "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=397",
+          "subpages": []
+        },
+        {
+          "name": "Groupe Espagnol",
+          "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=4907",
+          "subpages": []
+        }
+      ]
+    },
+    {
+      "name": "Etape",
+      "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=394",
+      "subpages": []
+    },
+    {
+      "name": "BUT GACO 1e Année",
+      "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mselect.jsp?id=6996",
+      "subpages": [
+        {
+          "name": "APPRENTIS 1",
+          "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mselect.jsp?id=4616",
+          "subpages": [
+            {
+              "name": "APP A",
+              "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=4617",
+              "subpages": []
+            },
+            {
+              "name": "APP B",
+              "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=4629",
+              "subpages": []
+            }
+          ]
+        },
+        {
+          "name": "INITIAUX 1",
+          "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mselect.jsp?id=4638",
+          "subpages": [
+            {
+              "name": "TD 1",
+              "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mselect.jsp?id=5132",
+              "subpages": [
+                {
+                  "name": "TP A",
+                  "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=5133",
+                  "subpages": []
+                },
+                {
+                  "name": "TP B",
+                  "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mselect.jsp?id=5695",
+                  "subpages": [
+                    {
+                      "name": "TP B",
+                      "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=18431",
+                      "subpages": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "TD 2",
+              "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mselect.jsp?id=5135",
+              "subpages": [
+                {
+                  "name": "TP C",
+                  "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=5136",
+                  "subpages": []
+                },
+                {
+                  "name": "TP D",
+                  "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=5139",
+                  "subpages": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Etape",
+      "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=6996",
+      "subpages": []
+    },
+    {
+      "name": "BUT GACO 2e Année",
+      "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mselect.jsp?id=6997",
+      "subpages": [
+        {
+          "name": "APPRENTIS 2",
+          "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mselect.jsp?id=4772",
+          "subpages": [
+            {
+              "name": "APP  A",
+              "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=4773",
+              "subpages": []
+            },
+            {
+              "name": "APP  B",
+              "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=4774",
+              "subpages": []
+            },
+            {
+              "name": "APP - MACAST",
+              "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=83",
+              "subpages": []
+            },
+            {
+              "name": "APP - MCMO",
+              "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=1802",
+              "subpages": []
+            },
+            {
+              "name": "APP - MDFS",
+              "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=1859",
+              "subpages": []
+            }
+          ]
+        },
+        {
+          "name": "INITIAUX 2",
+          "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mselect.jsp?id=4775",
+          "subpages": [
+            {
+              "name": "TD1",
+              "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mselect.jsp?id=5005",
+              "subpages": [
+                {
+                  "name": "INI - MACAST",
+                  "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=1871",
+                  "subpages": []
+                },
+                {
+                  "name": "INI - MCMO",
+                  "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=3288",
+                  "subpages": []
+                },
+                {
+                  "name": "INI - MDFS",
+                  "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=3292",
+                  "subpages": []
+                },
+                {
+                  "name": "TP A",
+                  "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=5007",
+                  "subpages": []
+                },
+                {
+                  "name": "TP B",
+                  "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=5006",
+                  "subpages": []
+                }
+              ]
+            },
+            {
+              "name": "TD2",
+              "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mselect.jsp?id=5008",
+              "subpages": [
+                {
+                  "name": "INI - MACAST",
+                  "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=6968",
+                  "subpages": []
+                },
+                {
+                  "name": "INI - MCMO",
+                  "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=9963",
+                  "subpages": []
+                },
+                {
+                  "name": "INI - MDFS",
+                  "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=10002",
+                  "subpages": []
+                },
+                {
+                  "name": "TP C",
+                  "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=5009",
+                  "subpages": []
+                },
+                {
+                  "name": "TP D",
+                  "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=5010",
+                  "subpages": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Etape",
+      "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=6997",
+      "subpages": []
+    },
+    {
+      "name": "BUT GACO 3e année",
+      "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mselect.jsp?id=3822",
+      "subpages": [
+        {
+          "name": "APPRENTIS 3",
+          "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mselect.jsp?id=99",
+          "subpages": [
+            {
+              "name": "APP - MACAST",
+              "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=14634",
+              "subpages": []
+            },
+            {
+              "name": "APP - MCMO",
+              "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=15596",
+              "subpages": []
+            },
+            {
+              "name": "APP - MDFS",
+              "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=18600",
+              "subpages": []
+            },
+            {
+              "name": "APP A",
+              "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=12939",
+              "subpages": []
+            },
+            {
+              "name": "APP B",
+              "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=14436",
+              "subpages": []
+            },
+            {
+              "name": "TP App 3 Grp1",
+              "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=4088",
+              "subpages": []
+            },
+            {
+              "name": "TP App 3 Grp2",
+              "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=2136",
+              "subpages": []
+            }
+          ]
+        },
+        {
+          "name": "INITIAUX 3",
+          "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mselect.jsp?id=128",
+          "subpages": [
+            {
+              "name": "TP1",
+              "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mselect.jsp?id=7783",
+              "subpages": [
+                {
+                  "name": "INI - MACAST",
+                  "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=19187",
+                  "subpages": []
+                },
+                {
+                  "name": "INI - MCMO",
+                  "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=20012",
+                  "subpages": []
+                },
+                {
+                  "name": "INI - MDFS",
+                  "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=20575",
+                  "subpages": []
+                },
+                {
+                  "name": "TP A",
+                  "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=20593",
+                  "subpages": []
+                },
+                {
+                  "name": "TP B",
+                  "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=20609",
+                  "subpages": []
+                }
+              ]
+            },
+            {
+              "name": "TP2",
+              "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mselect.jsp?id=9427",
+              "subpages": [
+                {
+                  "name": "INI - MACAST",
+                  "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=20614",
+                  "subpages": []
+                },
+                {
+                  "name": "INI - MCMO",
+                  "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=20637",
+                  "subpages": []
+                },
+                {
+                  "name": "INI - MDFS",
+                  "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=20645",
+                  "subpages": []
+                },
+                {
+                  "name": "TP C",
+                  "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=20611",
+                  "subpages": []
+                },
+                {
+                  "name": "TP D",
+                  "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=20613",
+                  "subpages": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Etape",
+      "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=3822",
+      "subpages": []
+    },
+    {
+      "name": "BUT GACO aD A1",
+      "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mselect.jsp?id=126",
+      "subpages": [
+        {
+          "name": "BUT GACO aD A1 Allemand",
+          "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=10584",
+          "subpages": []
+        },
+        {
+          "name": "BUT GACO aD A1 Espagnol",
+          "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=10655",
+          "subpages": []
+        }
+      ]
+    },
+    {
+      "name": "Etape",
+      "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=126",
+      "subpages": []
+    },
+    {
+      "name": "BUT GC-CD",
+      "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mselect.jsp?id=6998",
+      "subpages": [
+        {
+          "name": "BUT GC-CD1",
+          "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mselect.jsp?id=16504",
+          "subpages": [
+            {
+              "name": "GC-CD_S1",
+              "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mselect.jsp?id=12230",
+              "subpages": [
+                {
+                  "name": "CM_S1",
+                  "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mselect.jsp?id=2755",
+                  "subpages": [
+                    {
+                      "name": "DS_S1",
+                      "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mselect.jsp?id=6219",
+                      "subpages": [
+                        {
+                          "name": "TD_A",
+                          "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mselect.jsp?id=4719",
+                          "subpages": [
+                            {
+                              "name": "TP_A1",
+                              "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=2741",
+                              "subpages": []
+                            },
+                            {
+                              "name": "TP_A2",
+                              "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=2743",
+                              "subpages": []
+                            }
+                          ]
+                        },
+                        {
+                          "name": "TD_B",
+                          "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mselect.jsp?id=2744",
+                          "subpages": [
+                            {
+                              "name": "TP_B3",
+                              "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=2748",
+                              "subpages": []
+                            },
+                            {
+                              "name": "TP_B4",
+                              "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=2747",
+                              "subpages": []
+                            }
+                          ]
+                        },
+                        {
+                          "name": "TD_C",
+                          "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mselect.jsp?id=8682",
+                          "subpages": [
+                            {
+                              "name": "TP_C5",
+                              "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=8685",
+                              "subpages": []
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "GC-CD_S2",
+              "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mselect.jsp?id=4768",
+              "subpages": [
+                {
+                  "name": "CM_S2",
+                  "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mselect.jsp?id=7712",
+                  "subpages": [
+                    {
+                      "name": "DS_S2",
+                      "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mselect.jsp?id=6829",
+                      "subpages": [
+                        {
+                          "name": "TD_A",
+                          "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mselect.jsp?id=8954",
+                          "subpages": [
+                            {
+                              "name": "TP_A1",
+                              "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=9660",
+                              "subpages": []
+                            },
+                            {
+                              "name": "TP_A2",
+                              "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=9658",
+                              "subpages": []
+                            }
+                          ]
+                        },
+                        {
+                          "name": "TD_B",
+                          "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mselect.jsp?id=9665",
+                          "subpages": [
+                            {
+                              "name": "TP_B3",
+                              "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=9669",
+                              "subpages": []
+                            },
+                            {
+                              "name": "TP_B4",
+                              "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=9671",
+                              "subpages": []
+                            }
+                          ]
+                        },
+                        {
+                          "name": "TD_C",
+                          "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mselect.jsp?id=19127",
+                          "subpages": [
+                            {
+                              "name": "TP_C5",
+                              "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=26132",
+                              "subpages": []
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Etape",
+          "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=16504",
+          "subpages": []
+        },
+        {
+          "name": "BUT GC-CD2",
+          "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mselect.jsp?id=18481",
+          "subpages": [
+            {
+              "name": "GC-CD_S3",
+              "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mselect.jsp?id=18482",
+              "subpages": [
+                {
+                  "name": "CM_S3_Alt",
+                  "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mselect.jsp?id=18490",
+                  "subpages": [
+                    {
+                      "name": "DS_S3_Alt",
+                      "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mselect.jsp?id=18491",
+                      "subpages": [
+                        {
+                          "name": "TD_E",
+                          "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mselect.jsp?id=18504",
+                          "subpages": [
+                            {
+                              "name": "TP_E10_TP_ALT",
+                              "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=18502",
+                              "subpages": []
+                            },
+                            {
+                              "name": "TP_E9_BAT_ALT",
+                              "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=4082",
+                              "subpages": []
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "CM_S3_Init",
+                  "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mselect.jsp?id=18483",
+                  "subpages": [
+                    {
+                      "name": "DS_S3_Init",
+                      "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mselect.jsp?id=18484",
+                      "subpages": [
+                        {
+                          "name": "TD_D",
+                          "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mselect.jsp?id=18485",
+                          "subpages": [
+                            {
+                              "name": "TP_D7_BAT_INI",
+                              "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=18487",
+                              "subpages": []
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "GC-CD_S4",
+              "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mselect.jsp?id=10997",
+              "subpages": [
+                {
+                  "name": "CM_S4_Alt",
+                  "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mselect.jsp?id=11057",
+                  "subpages": [
+                    {
+                      "name": "DS_S4_Alt",
+                      "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mselect.jsp?id=18494",
+                      "subpages": [
+                        {
+                          "name": "TD_E_Alt",
+                          "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mselect.jsp?id=18506",
+                          "subpages": [
+                            {
+                              "name": "TP_E10_TP_ALT",
+                              "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=18739",
+                              "subpages": []
+                            },
+                            {
+                              "name": "TP_E9_BAT_ALT",
+                              "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=10661",
+                              "subpages": []
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "CM_S4_Init",
+                  "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mselect.jsp?id=11003",
+                  "subpages": [
+                    {
+                      "name": "DS_S4_Init",
+                      "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mselect.jsp?id=11013",
+                      "subpages": [
+                        {
+                          "name": "TD_D_Ini",
+                          "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mselect.jsp?id=11015",
+                          "subpages": [
+                            {
+                              "name": "TP D8_BAT_INI",
+                              "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=26761",
+                              "subpages": []
+                            },
+                            {
+                              "name": "TP_D7_BAT_INI",
+                              "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=26755",
+                              "subpages": []
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Etape",
+          "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=18481",
+          "subpages": []
+        },
+        {
+          "name": "BUT GC-CD3",
+          "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mselect.jsp?id=3917",
+          "subpages": [
+            {
+              "name": "GC-CD_S5",
+              "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mselect.jsp?id=10612",
+              "subpages": [
+                {
+                  "name": "CM_S5_Bat",
+                  "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mselect.jsp?id=18836",
+                  "subpages": [
+                    {
+                      "name": "DS_S5_Bat",
+                      "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mselect.jsp?id=18970",
+                      "subpages": [
+                        {
+                          "name": "TD_F",
+                          "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mselect.jsp?id=18973",
+                          "subpages": [
+                            {
+                              "name": "TP_F11_BAT",
+                              "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=19944",
+                              "subpages": []
+                            },
+                            {
+                              "name": "TP_F12_BAT",
+                              "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=19323",
+                              "subpages": []
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "CM_S5_TP_RAPEB",
+                  "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mselect.jsp?id=19945",
+                  "subpages": [
+                    {
+                      "name": "DS_S5_TP_RAPEB",
+                      "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mselect.jsp?id=19946",
+                      "subpages": [
+                        {
+                          "name": "TD_G",
+                          "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mselect.jsp?id=19947",
+                          "subpages": [
+                            {
+                              "name": "TP_G14_TP",
+                              "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=19948",
+                              "subpages": []
+                            },
+                            {
+                              "name": "TP_G15_RAPEB",
+                              "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=19949",
+                              "subpages": []
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "GC-CD_S6",
+              "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mselect.jsp?id=19950",
+              "subpages": [
+                {
+                  "name": "CM_S6_Bat",
+                  "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mselect.jsp?id=19951",
+                  "subpages": [
+                    {
+                      "name": "DS_S6_Bat",
+                      "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mselect.jsp?id=19952",
+                      "subpages": [
+                        {
+                          "name": "TD_F",
+                          "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mselect.jsp?id=20106",
+                          "subpages": [
+                            {
+                              "name": "TP_F11_BAT",
+                              "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=20107",
+                              "subpages": []
+                            },
+                            {
+                              "name": "TP_F12_BAT",
+                              "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=20108",
+                              "subpages": []
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "CM_S6_TP",
+                  "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mselect.jsp?id=20109",
+                  "subpages": [
+                    {
+                      "name": "DS_S6_TP",
+                      "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mselect.jsp?id=20122",
+                      "subpages": [
+                        {
+                          "name": "TD_G",
+                          "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mselect.jsp?id=21586",
+                          "subpages": [
+                            {
+                              "name": "TP_G14_TP",
+                              "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=21617",
+                              "subpages": []
+                            },
+                            {
+                              "name": "TP_G15_RAPEB",
+                              "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=21749",
+                              "subpages": []
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Etape",
+          "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=3917",
+          "subpages": []
+        }
+      ]
+    },
+    {
+      "name": "BUT GEII 1",
+      "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mselect.jsp?id=7000",
+      "subpages": [
+        {
+          "name": "TD_A",
+          "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mselect.jsp?id=12827",
+          "subpages": [
+            {
+              "name": "TP_A1",
+              "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=12838",
+              "subpages": []
+            },
+            {
+              "name": "TP_A2",
+              "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=12840",
+              "subpages": []
+            }
+          ]
+        },
+        {
+          "name": "TD_B",
+          "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mselect.jsp?id=4549",
+          "subpages": [
+            {
+              "name": "TP_B3",
+              "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=4550",
+              "subpages": []
+            },
+            {
+              "name": "TP_B4",
+              "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=4551",
+              "subpages": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Etape",
+      "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=7000",
+      "subpages": []
+    },
+    {
+      "name": "BUT GEII 2",
+      "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mselect.jsp?id=7001",
+      "subpages": [
+        {
+          "name": "Parcours EME",
+          "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mselect.jsp?id=214",
+          "subpages": [
+            {
+              "name": "EME TP1",
+              "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=8261",
+              "subpages": []
+            },
+            {
+              "name": "EME TP2",
+              "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=3579",
+              "subpages": []
+            }
+          ]
+        },
+        {
+          "name": "Etape",
+          "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=214",
+          "subpages": []
+        },
+        {
+          "name": "Parcours ESE",
+          "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mselect.jsp?id=3496",
+          "subpages": [
+            {
+              "name": "ESE TP1",
+              "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=7786",
+              "subpages": []
+            }
+          ]
+        },
+        {
+          "name": "Etape",
+          "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=3496",
+          "subpages": []
+        }
+      ]
+    },
+    {
+      "name": "BUT GEII 3",
+      "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mselect.jsp?id=911",
+      "subpages": [
+        {
+          "name": "Parcours EME",
+          "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=916",
+          "subpages": []
+        },
+        {
+          "name": "Parcours ESE",
+          "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=7954",
+          "subpages": []
+        }
+      ]
+    },
+    {
+      "name": "Etape",
+      "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=911",
+      "subpages": []
+    },
+    {
+      "name": "BUT INFO 1e année",
+      "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mselect.jsp?id=7006",
+      "subpages": [
+        {
+          "name": "S1",
+          "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mselect.jsp?id=4641",
+          "subpages": [
+            {
+              "name": "S1A",
+              "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mselect.jsp?id=4670",
+              "subpages": [
+                {
+                  "name": "S1-A1",
+                  "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=4673",
+                  "subpages": []
+                },
+                {
+                  "name": "S1-A2",
+                  "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=4674",
+                  "subpages": []
+                }
+              ]
+            },
+            {
+              "name": "S1B",
+              "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mselect.jsp?id=4668",
+              "subpages": [
+                {
+                  "name": "S1-B1",
+                  "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=4676",
+                  "subpages": []
+                },
+                {
+                  "name": "S1-B2",
+                  "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=4675",
+                  "subpages": []
+                }
+              ]
+            },
+            {
+              "name": "S1C",
+              "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mselect.jsp?id=4669",
+              "subpages": [
+                {
+                  "name": "S1-C1",
+                  "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=4677",
+                  "subpages": []
+                },
+                {
+                  "name": "S1-C2",
+                  "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=4678",
+                  "subpages": []
+                }
+              ]
+            },
+            {
+              "name": "S1D",
+              "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mselect.jsp?id=4671",
+              "subpages": [
+                {
+                  "name": "S1-D1",
+                  "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=4679",
+                  "subpages": []
+                },
+                {
+                  "name": "S1-D2",
+                  "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=4680",
+                  "subpages": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "S2",
+          "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mselect.jsp?id=4683",
+          "subpages": [
+            {
+              "name": "S2A",
+              "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mselect.jsp?id=4690",
+              "subpages": [
+                {
+                  "name": "S2-A1",
+                  "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=4691",
+                  "subpages": []
+                },
+                {
+                  "name": "S2-A2",
+                  "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=4692",
+                  "subpages": []
+                }
+              ]
+            },
+            {
+              "name": "S2B",
+              "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mselect.jsp?id=4684",
+              "subpages": [
+                {
+                  "name": "S2-B1",
+                  "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=4685",
+                  "subpages": []
+                },
+                {
+                  "name": "S2-B2",
+                  "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=4686",
+                  "subpages": []
+                }
+              ]
+            },
+            {
+              "name": "S2C",
+              "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mselect.jsp?id=4687",
+              "subpages": [
+                {
+                  "name": "S2-C1",
+                  "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=4688",
+                  "subpages": []
+                },
+                {
+                  "name": "S2-C2",
+                  "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=4689",
+                  "subpages": []
+                }
+              ]
+            },
+            {
+              "name": "S2D",
+              "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mselect.jsp?id=4693",
+              "subpages": [
+                {
+                  "name": "S2-D1",
+                  "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=4694",
+                  "subpages": []
+                },
+                {
+                  "name": "S2-D2",
+                  "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=4695",
+                  "subpages": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Etape",
+      "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=7006",
+      "subpages": []
+    },
+    {
+      "name": "BUT INFO 2e année - Alternants",
+      "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mselect.jsp?id=7827",
+      "subpages": [
+        {
+          "name": "S3 Alt",
+          "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mselect.jsp?id=19084",
+          "subpages": [
+            {
+              "name": "S3 Alt-1",
+              "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=8026",
+              "subpages": []
+            },
+            {
+              "name": "S3 Alt-2",
+              "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=19088",
+              "subpages": []
+            }
+          ]
+        },
+        {
+          "name": "S4 Alt",
+          "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mselect.jsp?id=18981",
+          "subpages": [
+            {
+              "name": "S4 Alt-1",
+              "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=19099",
+              "subpages": []
+            },
+            {
+              "name": "S4 Alt-2",
+              "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=19101",
+              "subpages": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Etape",
+      "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=7827",
+      "subpages": []
+    },
+    {
+      "name": "BUT INFO 2e année - Initiaux",
+      "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mselect.jsp?id=1165",
+      "subpages": [
+        {
+          "name": "S3 FI",
+          "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mselect.jsp?id=19037",
+          "subpages": [
+            {
+              "name": "S3 FI-A",
+              "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mselect.jsp?id=18846",
+              "subpages": [
+                {
+                  "name": "S3 FI-A1",
+                  "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=1168",
+                  "subpages": []
+                },
+                {
+                  "name": "S3 FI-A2",
+                  "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=18898",
+                  "subpages": []
+                }
+              ]
+            },
+            {
+              "name": "S3 FI-B",
+              "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mselect.jsp?id=19042",
+              "subpages": [
+                {
+                  "name": "S3 FI-B1",
+                  "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=18840",
+                  "subpages": []
+                },
+                {
+                  "name": "S3 FI-B2",
+                  "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=18936",
+                  "subpages": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "S4 FI",
+          "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mselect.jsp?id=18938",
+          "subpages": [
+            {
+              "name": "S4 FI-A",
+              "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mselect.jsp?id=19710",
+              "subpages": [
+                {
+                  "name": "S4 FI-A1",
+                  "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=18843",
+                  "subpages": []
+                },
+                {
+                  "name": "S4 FI-A2",
+                  "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=18949",
+                  "subpages": []
+                }
+              ]
+            },
+            {
+              "name": "S4 FI-B",
+              "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mselect.jsp?id=19714",
+              "subpages": [
+                {
+                  "name": "S4 FI-B1",
+                  "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=18844",
+                  "subpages": []
+                },
+                {
+                  "name": "S4 FI-B2",
+                  "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=18951",
+                  "subpages": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Etape",
+      "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=1165",
+      "subpages": []
+    },
+    {
+      "name": "BUT INFO 3e année - Alternants",
+      "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mselect.jsp?id=5854",
+      "subpages": [
+        {
+          "name": "S5 Alt",
+          "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mselect.jsp?id=14204",
+          "subpages": [
+            {
+              "name": "S5 Alt-1",
+              "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=5922",
+              "subpages": []
+            },
+            {
+              "name": "S5 Alt-2",
+              "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=15359",
+              "subpages": []
+            }
+          ]
+        },
+        {
+          "name": "S6 Alt",
+          "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mselect.jsp?id=14205",
+          "subpages": [
+            {
+              "name": "S6 Alt-1",
+              "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=18977",
+              "subpages": []
+            },
+            {
+              "name": "S6 Alt-2",
+              "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=18982",
+              "subpages": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Etape",
+      "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=5854",
+      "subpages": []
+    },
+    {
+      "name": "BUT INFO 3e année - Initiaux",
+      "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mselect.jsp?id=5664",
+      "subpages": [
+        {
+          "name": "S5 FI",
+          "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mselect.jsp?id=14155",
+          "subpages": [
+            {
+              "name": "S5 FI-A",
+              "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mselect.jsp?id=19731",
+              "subpages": [
+                {
+                  "name": "S5 FI-A1",
+                  "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=5849",
+                  "subpages": []
+                },
+                {
+                  "name": "S5 FI-A2",
+                  "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=15358",
+                  "subpages": []
+                }
+              ]
+            },
+            {
+              "name": "S5 FI-B",
+              "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mselect.jsp?id=19747",
+              "subpages": [
+                {
+                  "name": "S5 FI-B1",
+                  "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=15624",
+                  "subpages": []
+                },
+                {
+                  "name": "S5 FI-B2",
+                  "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=18436",
+                  "subpages": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "S6 FI",
+          "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mselect.jsp?id=14194",
+          "subpages": [
+            {
+              "name": "S6 FI-A",
+              "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mselect.jsp?id=20210",
+              "subpages": [
+                {
+                  "name": "S6 FI-A1",
+                  "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=18525",
+                  "subpages": []
+                },
+                {
+                  "name": "S6 FI-A2",
+                  "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=18732",
+                  "subpages": []
+                }
+              ]
+            },
+            {
+              "name": "S6 FI-B",
+              "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mselect.jsp?id=20211",
+              "subpages": [
+                {
+                  "name": "S6 FI-B1",
+                  "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=18789",
+                  "subpages": []
+                },
+                {
+                  "name": "S6 FI-B2",
+                  "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=18976",
+                  "subpages": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Etape",
+      "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=5664",
+      "subpages": []
+    },
+    {
+      "name": "BUT MMI 1",
+      "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mselect.jsp?id=7013",
+      "subpages": [
+        {
+          "name": "MMI1 TD A",
+          "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mselect.jsp?id=4786",
+          "subpages": [
+            {
+              "name": "MMI1 TP A1",
+              "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=552",
+              "subpages": []
+            },
+            {
+              "name": "MMI1 TP A2",
+              "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=5031",
+              "subpages": []
+            }
+          ]
+        },
+        {
+          "name": "MMI1 TD B",
+          "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mselect.jsp?id=5071",
+          "subpages": [
+            {
+              "name": "MMI1 TP B1",
+              "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=5082",
+              "subpages": []
+            },
+            {
+              "name": "MMI1 TP B2",
+              "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=5084",
+              "subpages": []
+            }
+          ]
+        },
+        {
+          "name": "MMI1 TD C",
+          "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mselect.jsp?id=5117",
+          "subpages": [
+            {
+              "name": "MMI1 TP C1",
+              "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=5119",
+              "subpages": []
+            },
+            {
+              "name": "MMI1 TP C2",
+              "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=5120",
+              "subpages": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Etape",
+      "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=7013",
+      "subpages": []
+    },
+    {
+      "name": "BUT MMI 2",
+      "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mselect.jsp?id=13315",
+      "subpages": [
+        {
+          "name": "BUT MMI 2 TD A [ Créa ]",
+          "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mselect.jsp?id=5807",
+          "subpages": [
+            {
+              "name": "MMI 2 TP A1 [ Créa ]",
+              "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=3705",
+              "subpages": []
+            },
+            {
+              "name": "MMI 2 TP A2 [ Créa ]",
+              "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=5811",
+              "subpages": []
+            }
+          ]
+        },
+        {
+          "name": "Etape",
+          "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=5807",
+          "subpages": []
+        },
+        {
+          "name": "BUT MMI 2 TD B [ Dev ]",
+          "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mselect.jsp?id=7313",
+          "subpages": [
+            {
+              "name": "MMI 2 TP B1 [ Dev ]",
+              "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=3712",
+              "subpages": []
+            }
+          ]
+        },
+        {
+          "name": "Etape",
+          "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=7313",
+          "subpages": []
+        },
+        {
+          "name": "BUT MMI 2 TD C [ Com. / UX ]",
+          "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mselect.jsp?id=7655",
+          "subpages": [
+            {
+              "name": "MMI 2 TP C1 [ Com. / UX ]",
+              "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=7678",
+              "subpages": []
+            }
+          ]
+        },
+        {
+          "name": "Etape",
+          "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=7655",
+          "subpages": []
+        }
+      ]
+    },
+    {
+      "name": "BUT MMI parcours CN 3e année",
+      "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mselect.jsp?id=1483",
+      "subpages": [
+        {
+          "name": "BUT MMI parcours CN 3e année",
+          "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=1491",
+          "subpages": []
+        }
+      ]
+    },
+    {
+      "name": "Etape",
+      "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=1483",
+      "subpages": []
+    },
+    {
+      "name": "BUT MMI parcours DWDI 3e année",
+      "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mselect.jsp?id=4253",
+      "subpages": [
+        {
+          "name": "BUT MMI parcours DWDI 3e année",
+          "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=4333",
+          "subpages": []
+        }
+      ]
+    },
+    {
+      "name": "Etape",
+      "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=4253",
+      "subpages": []
+    },
+    {
+      "name": "BUT MMI parcours SCNDE 3e année",
+      "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mselect.jsp?id=4785",
+      "subpages": [
+        {
+          "name": "BUT MMI parcours SCNDE 3e année",
+          "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=4893",
+          "subpages": []
+        }
+      ]
+    },
+    {
+      "name": "Etape",
+      "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=4785",
+      "subpages": []
+    },
+    {
+      "name": "BUT MP1",
+      "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mselect.jsp?id=7008",
+      "subpages": [
+        {
+          "name": "TD1",
+          "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mselect.jsp?id=2860",
+          "subpages": [
+            {
+              "name": "Gr A",
+              "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=11574",
+              "subpages": []
+            },
+            {
+              "name": "Gr B",
+              "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=1157",
+              "subpages": []
+            }
+          ]
+        },
+        {
+          "name": "TD2",
+          "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mselect.jsp?id=5033",
+          "subpages": [
+            {
+              "name": "Gr C",
+              "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=1159",
+              "subpages": []
+            },
+            {
+              "name": "Gr D",
+              "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=11572",
+              "subpages": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Etape",
+      "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=7008",
+      "subpages": []
+    },
+    {
+      "name": "BUT MP2",
+      "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mselect.jsp?id=10770",
+      "subpages": [
+        {
+          "name": "BUT MP2-TP1",
+          "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mselect.jsp?id=5882",
+          "subpages": [
+            {
+              "name": "A",
+              "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=5884",
+              "subpages": []
+            },
+            {
+              "name": "B",
+              "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=10538",
+              "subpages": []
+            }
+          ]
+        },
+        {
+          "name": "Etape",
+          "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=5882",
+          "subpages": []
+        },
+        {
+          "name": "BUT MP2-TP2",
+          "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mselect.jsp?id=5439",
+          "subpages": [
+            {
+              "name": "C",
+              "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=5462",
+              "subpages": []
+            },
+            {
+              "name": "D",
+              "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=10769",
+              "subpages": []
+            }
+          ]
+        },
+        {
+          "name": "Etape",
+          "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=5439",
+          "subpages": []
+        }
+      ]
+    },
+    {
+      "name": "BUT MP3",
+      "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mselect.jsp?id=12190",
+      "subpages": [
+        {
+          "name": "BUT MP3-TD1",
+          "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mselect.jsp?id=3049",
+          "subpages": [
+            {
+              "name": "A1",
+              "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=3474",
+              "subpages": []
+            },
+            {
+              "name": "A2",
+              "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=10340",
+              "subpages": []
+            },
+            {
+              "name": "B1",
+              "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=21264",
+              "subpages": []
+            },
+            {
+              "name": "B2",
+              "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=11507",
+              "subpages": []
+            }
+          ]
+        },
+        {
+          "name": "Etape",
+          "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=3049",
+          "subpages": []
+        },
+        {
+          "name": "BUT MP3-TD2",
+          "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mselect.jsp?id=6023",
+          "subpages": [
+            {
+              "name": "C1",
+              "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=7244",
+              "subpages": []
+            },
+            {
+              "name": "C2",
+              "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=11825",
+              "subpages": []
+            },
+            {
+              "name": "D1",
+              "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=21265",
+              "subpages": []
+            },
+            {
+              "name": "D2",
+              "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=11867",
+              "subpages": []
+            }
+          ]
+        },
+        {
+          "name": "Etape",
+          "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=6023",
+          "subpages": []
+        }
+      ]
+    },
+    {
+      "name": "BUT MT2E 1",
+      "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mselect.jsp?id=7004",
+      "subpages": [
+        {
+          "name": "GTE S1",
+          "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mselect.jsp?id=2677",
+          "subpages": [
+            {
+              "name": "TD11",
+              "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mselect.jsp?id=5820",
+              "subpages": [
+                {
+                  "name": "TP11A",
+                  "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=5821",
+                  "subpages": []
+                },
+                {
+                  "name": "TP11B",
+                  "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=5823",
+                  "subpages": []
+                },
+                {
+                  "name": "TP11C",
+                  "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=12959",
+                  "subpages": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "GTE S2",
+          "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mselect.jsp?id=2678",
+          "subpages": [
+            {
+              "name": "TD21",
+              "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mselect.jsp?id=2688",
+              "subpages": [
+                {
+                  "name": "TP21A",
+                  "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=14988",
+                  "subpages": []
+                },
+                {
+                  "name": "TP21B",
+                  "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=16842",
+                  "subpages": []
+                },
+                {
+                  "name": "TP22C",
+                  "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=2856",
+                  "subpages": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Non affecté",
+          "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mselect.jsp?id=3226",
+          "subpages": []
+        }
+      ]
+    },
+    {
+      "name": "Etape",
+      "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=7004",
+      "subpages": []
+    },
+    {
+      "name": "BUT MT2E 3A Mané",
+      "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mselect.jsp?id=8201",
+      "subpages": [
+        {
+          "name": "Mané Apprentis",
+          "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=8208",
+          "subpages": []
+        },
+        {
+          "name": "Mané Initiaux",
+          "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=21766",
+          "subpages": []
+        }
+      ]
+    },
+    {
+      "name": "Etape",
+      "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=8201",
+      "subpages": []
+    },
+    {
+      "name": "BUT MT2E 3A Optim",
+      "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mselect.jsp?id=5029",
+      "subpages": [
+        {
+          "name": "Optim Apprentis",
+          "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=21765",
+          "subpages": []
+        },
+        {
+          "name": "Optim Initiaux",
+          "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=5152",
+          "subpages": []
+        }
+      ]
+    },
+    {
+      "name": "Etape",
+      "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=5029",
+      "subpages": []
+    },
+    {
+      "name": "BUT MT2E parcours MEBI 2e année",
+      "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mselect.jsp?id=1176",
+      "subpages": [
+        {
+          "name": "S3 MEBI",
+          "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mselect.jsp?id=10307",
+          "subpages": [
+            {
+              "name": "TP2A Mané",
+              "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=10270",
+              "subpages": []
+            }
+          ]
+        },
+        {
+          "name": "S4 MEBI",
+          "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mselect.jsp?id=10391",
+          "subpages": [
+            {
+              "name": "TP4 MEBI",
+              "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=10473",
+              "subpages": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Etape",
+      "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=1176",
+      "subpages": []
+    },
+    {
+      "name": "BUT MT2E parcours OEBI 2e année",
+      "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mselect.jsp?id=7416",
+      "subpages": [
+        {
+          "name": "S3 OEBI",
+          "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mselect.jsp?id=10316",
+          "subpages": [
+            {
+              "name": "TP2A Optim",
+              "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=10284",
+              "subpages": []
+            }
+          ]
+        },
+        {
+          "name": "S4 OEBI",
+          "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mselect.jsp?id=10506",
+          "subpages": [
+            {
+              "name": "TP4 OEBI",
+              "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=10521",
+              "subpages": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Etape",
+      "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=7416",
+      "subpages": []
+    },
+    {
+      "name": "BUT RT - 1e année",
+      "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mselect.jsp?id=7011",
+      "subpages": [
+        {
+          "name": "ALT1",
+          "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mselect.jsp?id=4783",
+          "subpages": [
+            {
+              "name": "ALT1-A",
+              "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=4819",
+              "subpages": []
+            },
+            {
+              "name": "ALT1-B",
+              "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=18430",
+              "subpages": []
+            }
+          ]
+        },
+        {
+          "name": "RT1",
+          "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mselect.jsp?id=4790",
+          "subpages": [
+            {
+              "name": "TD_GB",
+              "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mselect.jsp?id=12449",
+              "subpages": [
+                {
+                  "name": "GB1",
+                  "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=5634",
+                  "subpages": []
+                },
+                {
+                  "name": "GB2",
+                  "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=5635",
+                  "subpages": []
+                }
+              ]
+            },
+            {
+              "name": "TD_LK",
+              "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mselect.jsp?id=12452",
+              "subpages": [
+                {
+                  "name": "LK1",
+                  "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=7519",
+                  "subpages": []
+                },
+                {
+                  "name": "LK2",
+                  "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=12446",
+                  "subpages": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Etape",
+      "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=7011",
+      "subpages": []
+    },
+    {
+      "name": "BUT RT - 2e année",
+      "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mselect.jsp?id=5936",
+      "subpages": [
+        {
+          "name": "Grp Cyb2",
+          "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mselect.jsp?id=12420",
+          "subpages": [
+            {
+              "name": "2-CyA",
+              "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=12421",
+              "subpages": []
+            },
+            {
+              "name": "2-CyB",
+              "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=12430",
+              "subpages": []
+            }
+          ]
+        },
+        {
+          "name": "Grp Iom2",
+          "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mselect.jsp?id=12432",
+          "subpages": [
+            {
+              "name": "2-Iom",
+              "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=12436",
+              "subpages": []
+            }
+          ]
+        },
+        {
+          "name": "Grp Pipr2",
+          "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mselect.jsp?id=12437",
+          "subpages": [
+            {
+              "name": "2-Ppr",
+              "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=12438",
+              "subpages": []
+            }
+          ]
+        },
+        {
+          "name": "Grp Tronc commun 2",
+          "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mselect.jsp?id=12375",
+          "subpages": [
+            {
+              "name": "2A",
+              "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=12382",
+              "subpages": []
+            },
+            {
+              "name": "2B",
+              "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=12397",
+              "subpages": []
+            },
+            {
+              "name": "2C",
+              "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=6537",
+              "subpages": []
+            },
+            {
+              "name": "AL2",
+              "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=12399",
+              "subpages": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Etape",
+      "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=5936",
+      "subpages": []
+    },
+    {
+      "name": "BUT RT - 3e année",
+      "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mselect.jsp?id=7261",
+      "subpages": [
+        {
+          "name": "Grp Cyb3",
+          "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mselect.jsp?id=98",
+          "subpages": [
+            {
+              "name": "Cy3A",
+              "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=2798",
+              "subpages": []
+            },
+            {
+              "name": "Cy3B",
+              "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=116",
+              "subpages": []
+            }
+          ]
+        },
+        {
+          "name": "Grp Iom3",
+          "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mselect.jsp?id=2812",
+          "subpages": [
+            {
+              "name": "Iom3",
+              "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=2828",
+              "subpages": []
+            }
+          ]
+        },
+        {
+          "name": "Grp Ppr3",
+          "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mselect.jsp?id=2833",
+          "subpages": [
+            {
+              "name": "Ppr3",
+              "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=8959",
+              "subpages": []
+            }
+          ]
+        },
+        {
+          "name": "Grp Tronc Commun 3",
+          "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mselect.jsp?id=9100",
+          "subpages": [
+            {
+              "name": "3A",
+              "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=9182",
+              "subpages": []
+            },
+            {
+              "name": "3B",
+              "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=9245",
+              "subpages": []
+            },
+            {
+              "name": "3C",
+              "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=9307",
+              "subpages": []
+            },
+            {
+              "name": "3D",
+              "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=1338",
+              "subpages": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Etape",
+      "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=7261",
+      "subpages": []
+    },
+    {
+      "name": "BUT TC 1A",
+      "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mselect.jsp?id=7016",
+      "subpages": [
+        {
+          "name": "Entretiens individuels selon affichage",
+          "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=13076",
+          "subpages": []
+        },
+        {
+          "name": "Groupe 1",
+          "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mselect.jsp?id=5645",
+          "subpages": [
+            {
+              "name": "TD ALL G1",
+              "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=5646",
+              "subpages": []
+            },
+            {
+              "name": "TD ALL G1.2",
+              "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=5653",
+              "subpages": []
+            },
+            {
+              "name": "TP 1A ALL",
+              "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=14684",
+              "subpages": []
+            },
+            {
+              "name": "TP 1B ALL",
+              "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=14689",
+              "subpages": []
+            },
+            {
+              "name": "TP A",
+              "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=13948",
+              "subpages": []
+            },
+            {
+              "name": "TP B",
+              "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=13989",
+              "subpages": []
+            }
+          ]
+        },
+        {
+          "name": "Groupe 2",
+          "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mselect.jsp?id=5654",
+          "subpages": [
+            {
+              "name": "TD ESP G2",
+              "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=5750",
+              "subpages": []
+            },
+            {
+              "name": "TD ESP G2B",
+              "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=5726",
+              "subpages": []
+            },
+            {
+              "name": "TP 2A ESP",
+              "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=14645",
+              "subpages": []
+            },
+            {
+              "name": "TP 2B ESP",
+              "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=14646",
+              "subpages": []
+            },
+            {
+              "name": "TP A",
+              "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=13997",
+              "subpages": []
+            },
+            {
+              "name": "TP B",
+              "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=13998",
+              "subpages": []
+            }
+          ]
+        },
+        {
+          "name": "Groupe 3",
+          "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mselect.jsp?id=5751",
+          "subpages": [
+            {
+              "name": "TD ALL G3",
+              "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=13931",
+              "subpages": []
+            },
+            {
+              "name": "TD ESP G3",
+              "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=13939",
+              "subpages": []
+            },
+            {
+              "name": "TP A",
+              "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=13999",
+              "subpages": []
+            },
+            {
+              "name": "TP B",
+              "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=14000",
+              "subpages": []
+            },
+            {
+              "name": "TP G3 ALL",
+              "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=14767",
+              "subpages": []
+            },
+            {
+              "name": "TP G3 ESP",
+              "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=14657",
+              "subpages": []
+            },
+            {
+              "name": "TP ITA",
+              "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=11578",
+              "subpages": []
+            }
+          ]
+        },
+        {
+          "name": "Groupe 4 APP",
+          "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mselect.jsp?id=12136",
+          "subpages": [
+            {
+              "name": "TP A",
+              "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=12139",
+              "subpages": []
+            },
+            {
+              "name": "TP B",
+              "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=12138",
+              "subpages": []
+            },
+            {
+              "name": "TP G4 ALL",
+              "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=12141",
+              "subpages": []
+            },
+            {
+              "name": "TP G4 ESP",
+              "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=12137",
+              "subpages": []
+            },
+            {
+              "name": "TP G4 ITA",
+              "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=9676",
+              "subpages": []
+            }
+          ]
+        },
+        {
+          "name": "Groupe 4 INI",
+          "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mselect.jsp?id=25684",
+          "subpages": [
+            {
+              "name": "TP 4 ALL",
+              "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=25726",
+              "subpages": []
+            },
+            {
+              "name": "TP 4 ESP",
+              "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=25799",
+              "subpages": []
+            },
+            {
+              "name": "TP 4 ITA",
+              "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=25800",
+              "subpages": []
+            },
+            {
+              "name": "TP A",
+              "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=25796",
+              "subpages": []
+            },
+            {
+              "name": "TP B",
+              "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=25797",
+              "subpages": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Etape",
+      "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=7016",
+      "subpages": []
+    },
+    {
+      "name": "BUT TC 2A",
+      "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mselect.jsp?id=5233",
+      "subpages": [
+        {
+          "name": "BUT TC 2A parcours BDMRC",
+          "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mselect.jsp?id=7132",
+          "subpages": [
+            {
+              "name": "TD APP parcours BDMRC",
+              "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=12029",
+              "subpages": []
+            },
+            {
+              "name": "TD INI parcours BDMRC",
+              "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=7232",
+              "subpages": []
+            },
+            {
+              "name": "TP ALL parcours BDMRC INI",
+              "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=18596",
+              "subpages": []
+            },
+            {
+              "name": "TP ALL parcours BDMRC INI+APP",
+              "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=18543",
+              "subpages": []
+            },
+            {
+              "name": "TP ESP parcours BDMRC INI",
+              "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=18597",
+              "subpages": []
+            },
+            {
+              "name": "TP ESP parcours BDMRC INI+APP",
+              "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=18544",
+              "subpages": []
+            },
+            {
+              "name": "TP1 parcours BDMRC INI",
+              "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=18602",
+              "subpages": []
+            },
+            {
+              "name": "TP1 parcours BDMRC INI+APP",
+              "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=18583",
+              "subpages": []
+            },
+            {
+              "name": "TP2 parcours BDMRC INI",
+              "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=18642",
+              "subpages": []
+            },
+            {
+              "name": "TP2 parcours BDMRC INI+APP",
+              "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=18584",
+              "subpages": []
+            }
+          ]
+        },
+        {
+          "name": "Etape",
+          "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=7132",
+          "subpages": []
+        },
+        {
+          "name": "BUT TC 2A parcours BIAV",
+          "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mselect.jsp?id=5687",
+          "subpages": [
+            {
+              "name": "TD APP parcours BIAV",
+              "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=12032",
+              "subpages": []
+            },
+            {
+              "name": "TD INI parcours BIAV",
+              "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=5727",
+              "subpages": []
+            },
+            {
+              "name": "TP ALL parcours BIAV INI",
+              "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=18668",
+              "subpages": []
+            },
+            {
+              "name": "TP ALL parcours BIAV INI+APP",
+              "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=18546",
+              "subpages": []
+            },
+            {
+              "name": "TP ESP parcours BIAV INI",
+              "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=18669",
+              "subpages": []
+            },
+            {
+              "name": "TP ESP parcours BIAV INI+APP",
+              "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=18545",
+              "subpages": []
+            },
+            {
+              "name": "TP1 parcours BIAV INI",
+              "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=18672",
+              "subpages": []
+            },
+            {
+              "name": "TP1 parcours BIAV INI+APP",
+              "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=18585",
+              "subpages": []
+            },
+            {
+              "name": "TP2 parcours BIAV INI",
+              "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=18682",
+              "subpages": []
+            },
+            {
+              "name": "TP2 parcours BIAV INI+APP",
+              "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=18586",
+              "subpages": []
+            }
+          ]
+        },
+        {
+          "name": "Etape",
+          "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=5687",
+          "subpages": []
+        },
+        {
+          "name": "BUT TC 2A parcours MDEE",
+          "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mselect.jsp?id=905",
+          "subpages": [
+            {
+              "name": "TD APP parcours MDEE",
+              "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=12033",
+              "subpages": []
+            },
+            {
+              "name": "TD INI parcours MDEE",
+              "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=1119",
+              "subpages": []
+            },
+            {
+              "name": "TP ALL parcours MDEE INI",
+              "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=18694",
+              "subpages": []
+            },
+            {
+              "name": "TP ALL parcours MDEE INI+APP",
+              "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=18548",
+              "subpages": []
+            },
+            {
+              "name": "TP ESP parcours MDEE INI",
+              "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=18701",
+              "subpages": []
+            },
+            {
+              "name": "TP ESP parcours MDEE INI+APP",
+              "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=18547",
+              "subpages": []
+            },
+            {
+              "name": "TP1 parcours MDEE INI",
+              "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=18699",
+              "subpages": []
+            },
+            {
+              "name": "TP1 parcours MDEE INI+APP",
+              "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=18594",
+              "subpages": []
+            },
+            {
+              "name": "TP2 parcours MDEE INI",
+              "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=18707",
+              "subpages": []
+            },
+            {
+              "name": "TP2 parcours MDEE INI+APP",
+              "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=18595",
+              "subpages": []
+            }
+          ]
+        },
+        {
+          "name": "Etape",
+          "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=905",
+          "subpages": []
+        },
+        {
+          "name": "Entretiens individuels selon affichage",
+          "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=2073",
+          "subpages": []
+        }
+      ]
+    },
+    {
+      "name": "BUT TC 3A",
+      "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mselect.jsp?id=8561",
+      "subpages": [
+        {
+          "name": "BUT TC parcours BDMRC 3e année",
+          "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mselect.jsp?id=3992",
+          "subpages": [
+            {
+              "name": "TD APP parcours BDMRC 3A",
+              "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=4161",
+              "subpages": []
+            },
+            {
+              "name": "TD INI parcours BDMRC 3A",
+              "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=6830",
+              "subpages": []
+            },
+            {
+              "name": "TP ALL parcours BDMRC INI 3A",
+              "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=6837",
+              "subpages": []
+            },
+            {
+              "name": "TP ALL parcours BDMRC INI+APP 3A",
+              "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=6833",
+              "subpages": []
+            },
+            {
+              "name": "TP ESP parcours BDMRC INI 3A",
+              "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=6896",
+              "subpages": []
+            },
+            {
+              "name": "TP ESP parcours BDMRC INI+APP 3A",
+              "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=6845",
+              "subpages": []
+            },
+            {
+              "name": "TP1 parcours BDMRC INI 3A",
+              "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=14259",
+              "subpages": []
+            },
+            {
+              "name": "TP1 parcours BDMRC INI+APP 3A",
+              "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=14253",
+              "subpages": []
+            },
+            {
+              "name": "TP2 parcours BDMRC INI 3A",
+              "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=14262",
+              "subpages": []
+            },
+            {
+              "name": "TP2 parcours BDMRC INI+APP 3A",
+              "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=14254",
+              "subpages": []
+            }
+          ]
+        },
+        {
+          "name": "Etape",
+          "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=3992",
+          "subpages": []
+        },
+        {
+          "name": "BUT TC parcours BIAV 3e année",
+          "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mselect.jsp?id=115",
+          "subpages": [
+            {
+              "name": "TD APP parcours BIAV 3A",
+              "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=655",
+              "subpages": []
+            },
+            {
+              "name": "TD INI parcours BIAV 3A",
+              "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=14241",
+              "subpages": []
+            },
+            {
+              "name": "TP ALL parcours BIAV INI 3A",
+              "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=14242",
+              "subpages": []
+            },
+            {
+              "name": "TP ALL parcours BIAV INI+APP 3A",
+              "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=14244",
+              "subpages": []
+            },
+            {
+              "name": "TP ESP parcours BIAV INI 3A",
+              "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=14247",
+              "subpages": []
+            },
+            {
+              "name": "TP ESP parcours BIAV INI+APP 3A",
+              "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=14246",
+              "subpages": []
+            },
+            {
+              "name": "TP1 parcours BIAV INI 3A",
+              "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=14263",
+              "subpages": []
+            },
+            {
+              "name": "TP1 parcours BIAV INI+APP 3A",
+              "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=14255",
+              "subpages": []
+            },
+            {
+              "name": "TP2 parcours BIAV INI 3A",
+              "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=14264",
+              "subpages": []
+            },
+            {
+              "name": "TP2 parcours BIAV INI+APP 3A",
+              "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=14256",
+              "subpages": []
+            }
+          ]
+        },
+        {
+          "name": "Etape",
+          "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=115",
+          "subpages": []
+        },
+        {
+          "name": "BUT TC parcours MDEE 3e année",
+          "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mselect.jsp?id=2138",
+          "subpages": [
+            {
+              "name": "TD APP parcours MDEE 3A",
+              "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=2709",
+              "subpages": []
+            },
+            {
+              "name": "TD INI parcours MDEE 3A",
+              "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=14248",
+              "subpages": []
+            },
+            {
+              "name": "TP ALL parcours MDEE INI 3A",
+              "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=14249",
+              "subpages": []
+            },
+            {
+              "name": "TP ALL parcours MDEE INI+APP 3A",
+              "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=14250",
+              "subpages": []
+            },
+            {
+              "name": "TP ESP parcours MDEE INI 3A",
+              "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=14251",
+              "subpages": []
+            },
+            {
+              "name": "TP ESP parcours MDEE INI+APP 3A",
+              "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=14252",
+              "subpages": []
+            },
+            {
+              "name": "TP1 parcours MDEE INI 3A",
+              "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=14265",
+              "subpages": []
+            },
+            {
+              "name": "TP1 parcours MDEE INI+APP 3A",
+              "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=14257",
+              "subpages": []
+            },
+            {
+              "name": "TP2 parcours MDEE INI 3A",
+              "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=14266",
+              "subpages": []
+            },
+            {
+              "name": "TP2 parcours MDEE INI+APP 3A",
+              "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=14258",
+              "subpages": []
+            }
+          ]
+        },
+        {
+          "name": "Etape",
+          "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=2138",
+          "subpages": []
+        },
+        {
+          "name": "Entretiens individuels selon affichage",
+          "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=26607",
+          "subpages": []
+        }
+      ]
+    },
+    {
+      "name": "DIU Risque Radon et Qualité de l'Air dans le Bâtiment",
+      "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mselect.jsp?id=7271",
+      "subpages": [
+        {
+          "name": "DIU Risque Radon et Qualité de l'Air dans le Bâtiment",
+          "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=6559",
+          "subpages": []
+        }
+      ]
+    },
+    {
+      "name": "Etape",
+      "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=7271",
+      "subpages": []
+    },
+    {
+      "name": "DU Laïcité et République",
+      "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mselect.jsp?id=14681",
+      "subpages": [
+        {
+          "name": "DU Laïcité et République",
+          "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=16493",
+          "subpages": []
+        }
+      ]
+    },
+    {
+      "name": "Etape",
+      "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=14681",
+      "subpages": []
+    },
+    {
+      "name": "DU Médiation Socio-culturelle",
+      "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mselect.jsp?id=4011",
+      "subpages": [
+        {
+          "name": "DU Médiation Socio-culturelle",
+          "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=5430",
+          "subpages": []
+        }
+      ]
+    },
+    {
+      "name": "Etape",
+      "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=4011",
+      "subpages": []
+    },
+    {
+      "name": "Ecole du Numérique",
+      "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mselect.jsp?id=15971",
+      "subpages": [
+        {
+          "name": "EN2",
+          "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=16510",
+          "subpages": []
+        },
+        {
+          "name": "Ecole du numérique",
+          "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=15972",
+          "subpages": []
+        }
+      ]
+    },
+    {
+      "name": "Lp Assurance, banque, finance : chargé de clientèle Belfort",
+      "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mselect.jsp?id=1071",
+      "subpages": [
+        {
+          "name": "LP chargé(e) de clientèle particulier",
+          "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=1779",
+          "subpages": []
+        }
+      ]
+    },
+    {
+      "name": "Etape",
+      "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=1071",
+      "subpages": []
+    },
+    {
+      "name": "Lp DORA - Métiers santé : techno, parcours Dosimétrie radiopro médi",
+      "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mselect.jsp?id=459",
+      "subpages": [
+        {
+          "name": "DORA",
+          "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mselect.jsp?id=15828",
+          "subpages": [
+            {
+              "name": "Groupe LP DORA",
+              "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=14129",
+              "subpages": []
+            },
+            {
+              "name": "Groupe LP DORA TP1",
+              "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=20067",
+              "subpages": []
+            },
+            {
+              "name": "Groupe LP DORA TP2",
+              "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=20068",
+              "subpages": []
+            },
+            {
+              "name": "Groupe LP DORA TP3",
+              "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=1163",
+              "subpages": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Etape",
+      "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=459",
+      "subpages": []
+    },
+    {
+      "name": "Représentants Etudiants et Personnels",
+      "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mselect.jsp?id=3915",
+      "subpages": [
+        {
+          "name": "Représentants Elus Conseil d'Institut",
+          "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=4808",
+          "subpages": []
+        },
+        {
+          "name": "Représentants Elus Conseil de Direction",
+          "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=3921",
+          "subpages": []
+        },
+        {
+          "name": "Représentants au Conseil de la Vie Etudiante",
+          "url": "https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=6370",
+          "subpages": []
+        }
+      ]
+    }
+  ]

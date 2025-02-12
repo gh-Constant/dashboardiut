@@ -114,19 +114,15 @@ export default function SchedulePage() {
     }
 
     setIsLoading(true)
-    setError(null) // Reset any previous errors
+    setError(null)
     
     try {
-      const url = `https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=${state.subclass}&jours=${days}`;
-      console.log('🔍 Fetching schedule from:', url);
       const response = await fetch(
         `/api/schedule?subclassId=${state.subclass}&jours=${days}`
       )
-      console.log('Schedule response status:', response.status)
       
       if (!response.ok) {
         const errorData = await response.json().catch(() => ({ message: 'Failed to fetch schedule' }))
-        console.error('Schedule fetch error:', errorData)
         throw new Error(errorData.message || 'Failed to fetch schedule')
       }
       
@@ -135,12 +131,11 @@ export default function SchedulePage() {
         throw new Error('Invalid schedule data received')
       }
       
-      console.log('Schedule data received:', data)
       setEvents(data)
     } catch (err) {
       console.error('Error in fetchSchedule:', err)
       setError(err instanceof Error ? err.message : 'Failed to load schedule')
-      setEvents([]) // Clear events on error
+      setEvents([])
     } finally {
       setIsLoading(false)
     }

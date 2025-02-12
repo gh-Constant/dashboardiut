@@ -27,8 +27,6 @@ export async function GET(request: NextRequest) {
   const subclassId = searchParams.get('subclassId')
   const jours = searchParams.get('jours') || '7'
 
-  console.log('Fetching schedule for subclassId:', subclassId, 'jours:', jours)
-
   if (!subclassId) {
     return NextResponse.json(
       { message: 'Subclass ID is required' },
@@ -37,24 +35,16 @@ export async function GET(request: NextRequest) {
   }
 
   try {
-    console.log('Making request to:', `${SEDNA_URL}?id=${subclassId}&jours=${jours}`)
     const response = await axios.get(`${SEDNA_URL}?id=${subclassId}&jours=${jours}`, {
       responseType: 'arraybuffer',
       responseEncoding: 'binary'
     })
-    
-    console.log('Response received, status:', response.status)
     
     // Handle Windows-1252 encoding
     const decoder = new TextDecoder('windows-1252')
     const html = decoder.decode(response.data)
     const $ = cheerio.load(html)
     
-    console.log('HTML Content:')
-    console.log('----------------------------------------')
-    console.log($.html())
-    console.log('----------------------------------------')
-
     const events: ScheduleEvent[] = []
     
     // Process each schedule entry
@@ -68,17 +58,14 @@ export async function GET(request: NextRequest) {
       if (text.includes('Auj') || text.includes('Demain') || text.includes('Sem') || 
           text.includes('Affichage planning') || text === 'Retour' || 
           text.includes('Note :') || text === ': Semaine' ||
-          text.startsWith('(')) { // Skip location lines
+          text.startsWith('(')) {
         return
       }
-      
-      console.log('Processing schedule line:', text)
       
       // Match schedule line pattern
       const match = text.match(/^([A-Za-z]{2})\s+(\d+)\s+([A-Za-zéû]+)\s+(\d{1,2})h(\d{0,2})-(\d{1,2})h(\d{0,2})/)
       
       if (match) {
-        console.log('Found matching schedule line:', text)
         const [, , date, monthAbbrev, startHour, startMin = '0', endHour, endMin = '0'] = match
         
         // Get the title from the next link
@@ -101,7 +88,6 @@ export async function GET(request: NextRequest) {
           // Parse the date
           const currentYear = new Date().getFullYear()
           const dateStr = `${date} ${month} ${currentYear}`
-          console.log('Parsing date:', dateStr)
           const eventDate = parse(dateStr, 'd MMMM yyyy', new Date(), { locale: fr })
           
           if (isNaN(eventDate.getTime())) {
@@ -142,20 +128,14 @@ export async function GET(request: NextRequest) {
             location,
             allDay: false
           }
-          console.log('Created event:', event)
           events.push(event)
         } catch (err) {
           console.error('Error parsing event:', err)
         }
-      } else {
-        console.log('Line did not match schedule pattern:', text)
       }
     })
 
-    console.log('Total events parsed:', events.length)
-
     if (events.length === 0) {
-      console.error('No events found in the response')
       return NextResponse.json(
         { message: 'No events found in the schedule' },
         { status: 404 }
@@ -166,9 +146,7 @@ export async function GET(request: NextRequest) {
   } catch (error) {
     console.error('Error fetching schedule:', error)
     if (axios.isAxiosError(error)) {
-      console.error('Response data:', error.response?.data)
       console.error('Response status:', error.response?.status)
-      console.error('Response headers:', error.response?.headers)
     }
     return NextResponse.json(
       { message: 'Failed to fetch schedule', error: error instanceof Error ? error.message : 'Unknown error' },
