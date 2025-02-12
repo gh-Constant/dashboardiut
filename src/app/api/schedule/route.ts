@@ -79,7 +79,7 @@ export async function GET(request: NextRequest) {
       
       if (match) {
         console.log('Found matching schedule line:', text)
-        const [, dayAbbrev, date, monthAbbrev, startHour, startMin = '0', endHour, endMin = '0'] = match
+        const [, , date, monthAbbrev, startHour, startMin = '0', endHour, endMin = '0'] = match
         
         // Get the title from the next link
         const nextLink = $(node).next('a')

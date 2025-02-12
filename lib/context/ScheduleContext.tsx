@@ -34,7 +34,7 @@ export function ScheduleProvider({ children }: { children: ReactNode }) {
   const [state, setState] = useState<ScheduleState>(initialState)
 
   const setDepartment = (department: string) => {
-    setState((prev) => ({
+    setState(() => ({
       ...initialState,
       department,
     }))
