@@ -109,21 +109,24 @@ export async function GET(request: NextRequest) {
             return
           }
           
-          // Create start and end dates
-          const start = new Date(eventDate)
-          const end = new Date(eventDate)
+          // Create start and end dates with UTC
+          const start = new Date(Date.UTC(
+            eventDate.getFullYear(),
+            eventDate.getMonth(),
+            eventDate.getDate(),
+            parseInt(startHour),
+            startMin ? parseInt(startMin) : 0,
+            0
+          ))
 
-          // Parse start time
-          start.setHours(parseInt(startHour))
-          start.setMinutes(startMin ? parseInt(startMin) : 0)
-          start.setSeconds(0)
-          start.setMilliseconds(0)
-
-          // Parse end time
-          end.setHours(parseInt(endHour))
-          end.setMinutes(endMin ? parseInt(endMin) : 0)
-          end.setSeconds(0)
-          end.setMilliseconds(0)
+          const end = new Date(Date.UTC(
+            eventDate.getFullYear(),
+            eventDate.getMonth(),
+            eventDate.getDate(),
+            parseInt(endHour),
+            endMin ? parseInt(endMin) : 0,
+            0
+          ))
 
           // Validate dates
           if (isNaN(start.getTime()) || isNaN(end.getTime())) {

@@ -107,72 +107,148 @@ export default function SchedulePage() {
   const [selectedEvent, setSelectedEvent] = useState<ScheduleEvent | null>(null)
   const [isEventDialogOpen, setIsEventDialogOpen] = useState(false)
 
+  const fetchSchedule = useCallback(async (days: number) => {
+    if (!state.subclass) {
+      setEvents([])
+      return
+    }
+
+    setIsLoading(true)
+    setError(null) // Reset any previous errors
+    
+    try {
+      const url = `https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=${state.subclass}&jours=${days}`;
+      console.log('🔍 Fetching schedule from:', url);
+      const response = await fetch(
+        `/api/schedule?subclassId=${state.subclass}&jours=${days}`
+      )
+      console.log('Schedule response status:', response.status)
+      
+      if (!response.ok) {
+        const errorData = await response.json().catch(() => ({ message: 'Failed to fetch schedule' }))
+        console.error('Schedule fetch error:', errorData)
+        throw new Error(errorData.message || 'Failed to fetch schedule')
+      }
+      
+      const data = await response.json()
+      if (!Array.isArray(data)) {
+        throw new Error('Invalid schedule data received')
+      }
+      
+      console.log('Schedule data received:', data)
+      setEvents(data)
+    } catch (err) {
+      console.error('Error in fetchSchedule:', err)
+      setError(err instanceof Error ? err.message : 'Failed to load schedule')
+      setEvents([]) // Clear events on error
+    } finally {
+      setIsLoading(false)
+    }
+  }, [state.subclass])
+
   // Load saved state on mount
   useEffect(() => {
     const savedState = localStorage.getItem('scheduleSelections')
     if (savedState) {
       try {
         const { school, semester, class: classId, subclass } = JSON.parse(savedState)
-        if (school) setSchool(school)
-        if (semester) setSemester(semester)
-        if (classId) setClass(classId)
-        if (subclass) setSubclass(subclass)
+        // Load all data in sequence if we have saved state
+        if (school) {
+          setSchool(school)
+          Promise.all([
+            fetch(`/api/schools?departmentId=6976`),
+            fetch(`/api/semesters?schoolId=${school}`)
+          ]).then(async ([schoolsRes, semestersRes]) => {
+            if (schoolsRes.ok) setSchools(await schoolsRes.json())
+            if (semestersRes.ok && semester) {
+              setSemesters(await semestersRes.json())
+              setSemester(semester)
+              
+              const classesRes = await fetch(`/api/classes?semesterId=${semester}`)
+              if (classesRes.ok && classId) {
+                setClasses(await classesRes.json())
+                setClass(classId)
+                
+                const subclassesRes = await fetch(`/api/subclasses?classId=${classId}`)
+                if (subclassesRes.ok && subclass) {
+                  setSubclasses(await subclassesRes.json())
+                  setSubclass(subclass)
+                }
+              }
+            }
+          }).catch(console.error)
+        }
       } catch (error) {
         console.error('Error parsing saved state:', error)
         localStorage.removeItem('scheduleSelections')
+        fetchSchools()
       }
+    } else {
+      fetchSchools()
     }
-    fetchSchools()
-  }, []) // Remove dependencies as this should only run once on mount
+  }, []) // Only run once on mount
 
-  // Fetch schools
+  // Fetch schools - only if no saved state
   const fetchSchools = async () => {
     try {
       setIsLoading(true)
       const response = await fetch(`/api/schools?departmentId=6976`)
-      
-      if (!response.ok) {
-        throw new Error('Failed to fetch schools')
+      if (response.ok) {
+        const data = await response.json()
+        setSchools(data)
       }
-      
-      const data = await response.json()
-      setSchools(data)
     } catch (err) {
       console.error('Error in fetchSchools:', err)
-      setError(err instanceof Error ? err.message : 'Failed to load schools')
+      setError('Failed to load schools')
     } finally {
       setIsLoading(false)
     }
   }
 
-  // Save state changes to localStorage
+  // Save state changes to localStorage - debounced to avoid frequent saves
   useEffect(() => {
-    if (!state.school && !state.semester && !state.class && !state.subclass) return
-    
-    const stateToSave = {
-      school: state.school,
-      semester: state.semester,
-      class: state.class,
-      subclass: state.subclass
-    }
-    localStorage.setItem('scheduleSelections', JSON.stringify(stateToSave))
+    const timer = setTimeout(() => {
+      if (state.school || state.semester || state.class || state.subclass) {
+        const stateToSave = {
+          school: state.school,
+          semester: state.semester,
+          class: state.class,
+          subclass: state.subclass
+        }
+        localStorage.setItem('scheduleSelections', JSON.stringify(stateToSave))
+      }
+    }, 500) // Debounce for 500ms
+
+    return () => clearTimeout(timer)
   }, [state])
 
-  // Fetch schedule when dependencies change
-  useEffect(() => {
-    if (state.subclass) {
-      fetchSchedule(currentWeek)
-    } else {
-      setEvents([])
-    }
-  }, [state.subclass, currentWeek])
+  // Fetch schedule with debouncing
+  const debouncedFetchSchedule = useCallback(
+    (() => {
+      let timer: NodeJS.Timeout
+      return (days: number) => {
+        clearTimeout(timer)
+        timer = setTimeout(() => {
+          if (state.subclass) {
+            fetchSchedule(days)
+          } else {
+            setEvents([])
+          }
+        }, 300)
+      }
+    })(),
+    [state.subclass, fetchSchedule]
+  )
 
-  // Fetch semesters when school changes
+  // Fetch schedule when dependencies change - with debouncing
+  useEffect(() => {
+    debouncedFetchSchedule(currentWeek)
+  }, [state.subclass, currentWeek, debouncedFetchSchedule])
+
+  // Fetch semesters when school changes - only if different
   useEffect(() => {
     if (!state.school) {
       setSemesters([])
-      setClass('')
-      setSubclass('')
       return
     }
 
@@ -180,9 +256,10 @@ export default function SchedulePage() {
       try {
         setIsLoading(true)
         const response = await fetch(`/api/semesters?schoolId=${state.school}`)
-        if (!response.ok) throw new Error('Failed to fetch semesters')
-        const data = await response.json()
-        setSemesters(data)
+        if (response.ok) {
+          const data = await response.json()
+          setSemesters(data)
+        }
       } catch (err) {
         setError('Failed to load semesters')
         console.error(err)
@@ -194,11 +271,10 @@ export default function SchedulePage() {
     fetchSemesters()
   }, [state.school])
 
-  // Fetch classes when semester changes
+  // Fetch classes when semester changes - only if different
   useEffect(() => {
     if (!state.semester) {
       setClasses([])
-      setSubclass('')
       return
     }
 
@@ -206,9 +282,10 @@ export default function SchedulePage() {
       try {
         setIsLoading(true)
         const response = await fetch(`/api/classes?semesterId=${state.semester}`)
-        if (!response.ok) throw new Error('Failed to fetch classes')
-        const data = await response.json()
-        setClasses(data)
+        if (response.ok) {
+          const data = await response.json()
+          setClasses(data)
+        }
       } catch (err) {
         setError('Failed to load classes')
         console.error(err)
@@ -220,7 +297,7 @@ export default function SchedulePage() {
     fetchClasses()
   }, [state.semester])
 
-  // Fetch subclasses when class changes
+  // Fetch subclasses when class changes - only if different
   useEffect(() => {
     if (!state.class) {
       setSubclasses([])
@@ -231,9 +308,10 @@ export default function SchedulePage() {
       try {
         setIsLoading(true)
         const response = await fetch(`/api/subclasses?classId=${state.class}`)
-        if (!response.ok) throw new Error('Failed to fetch subclasses')
-        const data = await response.json()
-        setSubclasses(data)
+        if (response.ok) {
+          const data = await response.json()
+          setSubclasses(data)
+        }
       } catch (err) {
         setError('Failed to load subclasses')
         console.error(err)
@@ -327,45 +405,6 @@ export default function SchedulePage() {
     setEvents([]);
     await fetchSchedule(1);
   };
-
-  const fetchSchedule = useCallback(async (days: number) => {
-    if (!state.subclass) {
-      setEvents([])
-      return
-    }
-
-    setIsLoading(true)
-    setError(null) // Reset any previous errors
-    
-    try {
-      const url = `https://sedna.univ-fcomte.fr/jsp/custom/ufc/mplanif.jsp?id=${state.subclass}&jours=${days}`;
-      console.log('🔍 Fetching schedule from:', url);
-      const response = await fetch(
-        `/api/schedule?subclassId=${state.subclass}&jours=${days}`
-      )
-      console.log('Schedule response status:', response.status)
-      
-      if (!response.ok) {
-        const errorData = await response.json().catch(() => ({ message: 'Failed to fetch schedule' }))
-        console.error('Schedule fetch error:', errorData)
-        throw new Error(errorData.message || 'Failed to fetch schedule')
-      }
-      
-      const data = await response.json()
-      if (!Array.isArray(data)) {
-        throw new Error('Invalid schedule data received')
-      }
-      
-      console.log('Schedule data received:', data)
-      setEvents(data)
-    } catch (err) {
-      console.error('Error in fetchSchedule:', err)
-      setError(err instanceof Error ? err.message : 'Failed to load schedule')
-      setEvents([]) // Clear events on error
-    } finally {
-      setIsLoading(false)
-    }
-  }, [state.subclass, setEvents, setIsLoading, setError])
 
   return (
     <div className="container mx-auto px-4 py-8">
@@ -560,11 +599,15 @@ export default function SchedulePage() {
             <div className="h-[750px]">
               <Calendar
                 localizer={localizer}
-                events={events.map(event => ({
-                  ...event,
-                  start: typeof event.start === 'string' ? new Date(event.start) : event.start,
-                  end: typeof event.end === 'string' ? new Date(event.end) : event.end
-                }))}
+                events={events.map(event => {
+                  const start = new Date(event.start)
+                  const end = new Date(event.end)
+                  return {
+                    ...event,
+                    start: new Date(start.getUTCFullYear(), start.getUTCMonth(), start.getUTCDate(), start.getUTCHours(), start.getUTCMinutes()),
+                    end: new Date(end.getUTCFullYear(), end.getUTCMonth(), end.getUTCDate(), end.getUTCHours(), end.getUTCMinutes())
+                  }
+                })}
                 startAccessor="start"
                 endAccessor="end"
                 views={['week']}
@@ -582,6 +625,8 @@ export default function SchedulePage() {
                   event: EventComponent
                 }}
                 className="h-full [&_.rbc-time-content]:!overflow-y-visible [&_.rbc-time-content_.rbc-day-slot]:!min-h-[650px]"
+                timeslots={1}
+                step={60}
               />
             </div>
           )}

@@ -59,18 +59,18 @@ export function ScheduleProvider({ children }: { children: ReactNode }) {
     }))
   }
 
-  const setClass = (class_: string) => {
+  const setClass = (classId: string) => {
     setState((prev) => ({
       ...prev,
-      class: class_,
+      class: classId,
       subclass: '',
     }))
   }
 
-  const setSubclass = (subclass: string) => {
+  const setSubclass = (subclassId: string) => {
     setState((prev) => ({
       ...prev,
-      subclass,
+      subclass: subclassId,
     }))
   }
 
